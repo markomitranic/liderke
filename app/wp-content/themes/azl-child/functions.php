@@ -3,7 +3,7 @@
 add_action( 'after_setup_theme', 'azl_child_theme_setup' );
 function azl_child_theme_setup() {
     load_child_theme_textdomain( 'twentytwelve', get_stylesheet_directory() . '/languages' );
-} 
+}
 
 // Parent stylesheet
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
@@ -18,6 +18,18 @@ function custom_scripts_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'custom_scripts_styles' );
 
+
+function enqueueChildScripts()
+{
+    wp_enqueue_script(
+        'jquery',
+        get_stylesheet_directory_uri() . '/js/app.js',
+        [],
+        wp_get_theme()->get('Version'),
+        true
+    );
+}
+add_action( 'wp_enqueue_scripts', 'enqueueChildScripts' );
 
 // Customizer Upload Logo Section
 function site_theme_customizer( $wp_customize ) {
@@ -58,7 +70,7 @@ function azl_custom_settings() {
 	add_image_size( 'custom-post-thumbnails', 670, 9999 ); // Unlimited height, soft crop
 	add_image_size( 'custom-post-thumbnails-two', 170, 270, array( 'center', 'top' ) ); // Width: 170px, Height: 270px
 	add_image_size( 'custom-post-thumbnails-three', 270, 428, array( 'center', 'top' ) ); // Width: 270px, Height: 428px
- 
+
 }
 add_action( 'after_setup_theme', 'azl_custom_settings' );
 
@@ -79,7 +91,7 @@ if ( ! function_exists( 'custom_navigation_menus' ) ) {
 }
 
 
-// Pagination with Custom Query 
+// Pagination with Custom Query
 function custom_pagination($numpages = '', $pagerange = '', $paged='') {
 	if (empty($pagerange)) {
 		$pagerange = 2;
@@ -88,7 +100,7 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
 	if (empty($paged)) {
 		$paged = 1;
 	}
-	global $wp_query;	
+	global $wp_query;
 	if ($numpages == '') {
 		$numpages = $wp_query->max_num_pages;
 		if(!$numpages) {
@@ -120,12 +132,12 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
 	}
 }
 
-// Pagination with Default Query 
+// Pagination with Default Query
 function custom_query_pagination() {
 	global $wp_query;
-	
+
 	$query_pagination_args = ( array(
-		'base' 			=> '%_%', 
+		'base' 			=> '%_%',
 		'format' 		=> '?paged=%#%',
 		'current' 		=> max( 1, get_query_var('paged') ),
 		'total' 		=> $wp_query->max_num_pages,
@@ -134,11 +146,11 @@ function custom_query_pagination() {
 		'next_text'     => __('&#xf105;', 'twentytwelve'),
 		'type'          => 'plain',
 		'add_args'      => false,
-		'add_fragment'  => ''		
+		'add_fragment'  => ''
 	) );
-	
+
 	$query_paginate_links = paginate_links($query_pagination_args);
-	
+
 	if ($query_paginate_links) {
 		echo "<nav class='custom-pagination'>";
 		echo $query_paginate_links;
@@ -222,10 +234,10 @@ function revconcept_get_images($post_id) {
 	if ($images) :
 		foreach ($images as $attachment_id => $image) :
 			$img_alt = get_post_meta($attachment_id, '_wp_attachment_image_alt', true); //alt
-			if ($img_alt == '') : 
+			if ($img_alt == '') :
 				$img_alt = $image->post_title;
 			endif;
-			
+
 			$big_array = image_downsize( $image->ID, 'large' );
 			$img_url = $big_array[0];
 			echo '<li>';
@@ -273,7 +285,7 @@ function custom_field_excerpt() {
 
 // Custom post type for publications
 function publication_post_type_init() {
- 
+
 	$labels = array(
 		'name' 					=> _x('Publications', 'post type general name', 'twentytwelve'),
 		'singular_name' 		=> _x('Publication', 'post type singular name', 'twentytwelve'),
@@ -303,8 +315,8 @@ function publication_post_type_init() {
 		'menu_position' 		=> null,
 		'supports' 				=> array('title','editor','thumbnail'),
 		'taxonomies'			=> array('post_tag')
-	  ); 
- 
+	  );
+
 	register_post_type( 'publications' , $args );
 }
 add_action('init', 'publication_post_type_init');
@@ -336,4 +348,30 @@ function create_category_taxonomies() {
 	);
 
 	register_taxonomy( 'publication_category', 'publications', $args );
+}
+
+/**
+ * Just a humble box that appears in top right corner.
+ */
+function devModePixel() {
+    echo '<div id="devModePixel" style="position:fixed;top:0;left:0;z-index:999999999;background:red;">IN_DEV</div>';
+}
+if (defined('DEV_ENVIRONMENT') && DEV_ENVIRONMENT === true) {
+    add_action('wp_footer', 'devModePixel');
+    add_action('admin_footer', 'devModePixel');
+}
+
+/**
+ * @param $phpmailer
+ */
+function mailtrap($phpmailer) {
+    $phpmailer->isSMTP();
+    $phpmailer->Host = 'smtp.mailtrap.io';
+    $phpmailer->SMTPAuth = true;
+    $phpmailer->Port = 2525;
+    $phpmailer->Username = '4d21a3a0333360';
+    $phpmailer->Password = '387d0a6349f85c';
+}
+if (defined('DEV_ENVIRONMENT') && DEV_ENVIRONMENT === true) {
+    add_action('phpmailer_init', 'mailtrap');
 }
