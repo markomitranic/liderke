@@ -1,0 +1,15 @@
+[10-Sep-2017 12:02:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/404.php on line 10
+[11-Sep-2017 21:33:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/index.php on line 17
+[03-Jan-2018 19:21:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/404.php on line 10
+[03-Jan-2018 19:21:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/404.php on line 10
+[04-Jan-2018 07:42:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/404.php on line 10
+[04-Jan-2018 07:42:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/404.php on line 10
+[19-Mar-2018 10:51:15 Europe/Berlin] PHP Fatal error:  Call to undefined function language_attributes() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/header.php on line 11
+[20-Mar-2018 12:09:55 Europe/Berlin] PHP Fatal error:  Call to undefined function language_attributes() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/header.php on line 11
+[26-Mar-2018 06:38:13 Europe/Berlin] PHP Fatal error:  Call to undefined function language_attributes() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/header.php on line 11
+[29-Mar-2018 06:35:14 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/index.php on line 17
+[02-Aug-2018 03:22:28 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/index.php on line 17
+[02-Aug-2018 03:22:28 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/index.php on line 17
+[02-Aug-2018 03:22:29 Europe/Berlin] PHP Fatal error:  Call to undefined function language_attributes() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/header.php on line 11
+[02-Aug-2018 03:22:29 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/404.php on line 10
+[02-Aug-2018 03:22:29 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/azl-child/404.php on line 10

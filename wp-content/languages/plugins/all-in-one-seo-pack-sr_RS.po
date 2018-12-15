@@ -1,0 +1,3133 @@
+# Translation of Plugins - All in One SEO Pack - Stable (latest release) in Serbian
+# This file is distributed under the same license as the Plugins - All in One SEO Pack - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-08-27 10:12:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Plugins - All in One SEO Pack - Stable (latest release)\n"
+
+#: modules/aioseop_opengraph.php:372
+msgid "Custom Twitter Image"
+msgstr "Posebna Twitter Fotografija"
+
+#: modules/aioseop_opengraph.php:114
+msgid "This option lets you upload an image to use as the Twitter image for this Page or Post."
+msgstr "Ova opcija vam dozvoljava da ubacite fotografiju koja će biti korišćena pri deljenju Članka ili Stranice na Twitter."
+
+#: aioseop_class.php:872
+msgid "Redirect Attachments to Post Parent:"
+msgstr "Preusmeri priloge na roditelja članaka:"
+
+#: aioseop_class.php:226
+msgid "Redirect attachment pages to post parent."
+msgstr "Preusmeri zakačene stranice za roditelja članka."
+
+#: modules/aioseop_sitemap.php:52
+msgid "Dynamically creates the XML sitemap instead of using a static file."
+msgstr "Dinamičko kreiranje XML Sitemap umesto korišćenja statičnog fajla."
+
+#: modules/aioseop_importer_exporter.php:553
+msgid "<b>Security warning:</b> Your file looks compromised. Please check the file for any script-injection."
+msgstr "<b>Безбедоносно упозорење:</b> Изгледа да је ваша датотека компромитована. Молимо вас да проверите датотеку  за било који унос скрипта"
+
+#. translators: %1$s expands to the number of languages All in One SEO Pack has
+#. been translated into. $2%s to the percentage translated of the current
+#. language, $3%s to the language name, %4$s and %5$s to anchor tags with link
+#. to translation page at translate.wordpress.org
+#: admin/display/general-metaboxes.php:98
+msgid "All in One SEO Pack has been translated into %1$s languages, but currently the %3$s translation is only %2$s percent complete. %4$s Click here %5$s to help get it to 100 percent."
+msgstr "All in One SEO Pack је преведен на %1$s језика, али тренутно само %3$s превода је само %2$s комплетирано. %4$s Кликните овде %5$s да нам помогнете да га завршимо 100 посто. ."
+
+#: admin/meta_import.php:79 admin/meta_import.php:85
+msgid "Sorry, you can't do that. Please choose a platform and then click Analyze or Convert."
+msgstr "Нажалост, то не можете да урадите. Молимо изаберите платформу и кликните на Анализирај или Конвертуј."
+
+#: aioseop_class.php:3082
+msgid "New in 2.4: Improved support for taxonomies, Woocommerce and massive performance improvements under the hood! Please review your settings on each options page!"
+msgstr "Ново у 2.4: Унапређена подршка за таксономије, Woocommerce и велика унапређења перформанси која се ту налазе.! Молимо вас да проверите ваша подешавања на свакој страници где су опције!"
+
+#: aioseop_class.php:444
+msgid "Capitalize Tag and Search Titles:"
+msgstr "Velikim slovima napišite tagove i pretrage naslova"
+
+#: admin/meta_import.php:199
+msgid "Convert"
+msgstr "Конвертуј"
+
+#: admin/meta_import.php:198
+msgid "Analyze"
+msgstr "Анализирај"
+
+#: admin/meta_import.php:187
+msgid "Themes"
+msgstr "Теме"
+
+#: admin/meta_import.php:179
+msgid "Plugins"
+msgstr "Модули"
+
+#: admin/meta_import.php:177
+msgid "Choose platform:"
+msgstr "Изебери платформу:"
+
+#: admin/meta_import.php:175
+msgid "Import SEO data from:"
+msgstr "Увези СЕО податке из:"
+
+#: admin/meta_import.php:165
+msgid "Before performing an import, we strongly recommend that you make a backup of your site. We use and recommend %s BackupBuddy %s for backups."
+msgstr "Пре покретања увоза, препоручујемо да направите бекап вашег сајта. Ми користимо и предлажемо %s BackupBuddy %s за бекапе."
+
+#: admin/meta_import.php:161
+msgid "Click \"Convert\" to perform the import. After the import has completed, you will be alerted to how many records were imported, and how many records had to be ignored, based on the criteria above."
+msgstr "Kliknite \"Konvertuj\" da izvršite uvoženje. Nakon što je uvoženje kompletirano, bićete obavešteni koliko snimaka je uveženo, a koliko snimaka može biti zanemareno, na osnovu gore navedenih kriterijuma."
+
+#: admin/meta_import.php:157
+msgid "Some plugins and themes do not share similar data, or they store data in a non-standard way. If we cannot import this data, it will remain unchanged in your database. Any compatible SEO data will be displayed for you to review. If a post or page already has SEO data in All in One SEO Pack, we will not import data from another plugin/theme."
+msgstr "Neki pluginovi i teme ne dele iste podatke, ili oni skladište podatke na nestandardanan način. Ukoliko ne možemo da uvezemo ove podatke, ostaće nepromenjeni u našoj bazi podataka. Bilo koji kompatibilni SEO podaci će biti prikazani vama na uvid. Ukoliko post ili strana već ima SEO podatke u All in One SEO Pack, nećemo uvesti podatke sa drugog plugina/teme. "
+
+#: admin/meta_import.php:157
+msgid "Please Note: "
+msgstr "Imjate na umu: "
+
+#: admin/meta_import.php:153
+msgid "Click \"Analyze\" for a list of SEO data that can be imported into All in One SEO Pack, along with the number of records that will be imported."
+msgstr "Kliknite \"Analiziraj\" za listu SEO podataka koji može biti uvezen u All in One SEO Pack, zajedno sa brojem snimanja koji će biti uvezen."
+
+#: admin/meta_import.php:149
+msgid "Use the drop down below to choose which plugin or theme you wish to import SEO data from."
+msgstr "Користите падајући мени да изеберете додатак или тему из које желите да увезете СЕО податке."
+
+#: admin/meta_import.php:146
+msgid "Import SEO Settings"
+msgstr "Увоз СЕО подешавања"
+
+#: admin/meta_import.php:117
+msgid "Conversion Results"
+msgstr "Резултати конверзије"
+
+#: admin/meta_import.php:107
+msgid "Compatible data:"
+msgstr "Kompatibilni podaci:"
+
+#: admin/meta_import.php:103
+msgid "<p>Analyzing records in a %s to %s conversion&hellip;"
+msgstr "<p>Analiziranje podataka u %s to %s konverzija&hellip;"
+
+#: admin/meta_import.php:98 admin/meta_import.php:121
+msgid "Sorry, something went wrong. Please try again"
+msgstr "Жао нам је, процес није успео. Молимо покушајте поново"
+
+#: admin/meta_import.php:94
+msgid "Analysis Results"
+msgstr "Резултати Анализе"
+
+#: admin/meta_import.php:62
+msgid "SEO Data Import"
+msgstr "Увоз СЕО података"
+
+#: admin/meta_import.php:62
+msgid "Import SEO Data"
+msgstr "Uvezite SEO podatke. "
+
+#: admin/meta_import.php:37
+msgid "All in One SEO has been deactivated"
+msgstr "All in One SEO је деактивиран"
+
+#: admin/meta_import.php:32
+msgid "The plugin All-In-One-SEO has been detected. Do you want to %simport its settings%s?"
+msgstr "Otkriven je All-In-One-SEO. Da li želite da %siuvezete njegova podešavanja%s?"
+
+#: admin/meta_import.php:28
+msgid "The plugin Yoast SEO has been detected. Do you want to %simport its settings%s into All in One SEO Pack?"
+msgstr "Додатак Yoast SEO је детектован. Да ли желиш да %sувезеш подешавања%s у All in One SEO Pack?"
+
+#: modules/aioseop_feature_manager.php:75
+msgid "Pro Version Only"
+msgstr "Само у Про верзији"
+
+#: aioseop_class.php:3704
+msgid "%s Upgrade%s to All in One SEO Pack Pro for increased SEO compatibility for your products."
+msgstr "%s Ažurirajte %s do All in One SEO Pack Pro za povećanu SEO kompatibilnost za vaše proizvode."
+
+#: aioseop_class.php:3703
+msgid "We've detected you're running WooCommerce."
+msgstr "Уочили смо да користите WooCommerce."
+
+#. Description of the plugin/theme
+msgid "Out-of-the-box SEO for your WordPress blog. Features like XML Sitemaps, SEO for custom post types, SEO for blogs or business sites, SEO for ecommerce sites, and much more. Almost 30 million downloads since 2007."
+msgstr "Ванвременски SEO за ваш WordPress блог. Погодности као што су XML мапе сајтова, SEO за обичнетипове постова, SEO за блогове или бизнис сајтове, SEO за ecommerce сајтове, и много тога још. Скоро 30 милиона преузимања од 2007. "
+
+#: modules/aioseop_performance.php:318
+msgid "Check For Updates"
+msgstr "Провера нове верзије"
+
+#: modules/aioseop_performance.php:294
+msgid "%s has checked for updates."
+msgstr "%s је проверио ажурирања."
+
+#: modules/aioseop_feature_manager.php:68
+msgid "Create and manage your Video Sitemap using this feature and submit your Video Sitemap to Google, Bing/Yahoo and Ask.com."
+msgstr "Креирајте и управљајте вашом мапом сајта видеа коришћењем овог подешавања и поднесите вашу мапу сајта Google-у, Bing-у/Yahoo-у и Ask.com-у."
+
+#: modules/aioseop_feature_manager.php:63
+msgid "Image SEO"
+msgstr "SEO slike"
+
+#: modules/aioseop_bad_robots.php:38
+msgid "Use Custom Blocklists"
+msgstr "Користите подешене блоклисте"
+
+#: modules/aioseop_bad_robots.php:37
+msgid "Block Bad Bots using .htaccess"
+msgstr "Блокирајте лоше ботове коришћењем .htaccess-а"
+
+#: modules/aioseop_bad_robots.php:35
+msgid "Block Referral Spam using HTTP"
+msgstr "Блокирајте упућујући спам коришћењем HTTP-а"
+
+#: modules/aioseop_bad_robots.php:34
+msgid "Block Bad Bots using HTTP"
+msgstr "Блокирајте лоше ботове коришћењем HTTP-а."
+
+#: modules/aioseop_bad_robots.php:24
+msgid "Block Referral Spam using HTTP."
+msgstr "Блокирајте упућујући спам коришћењем HTTP-а."
+
+#: inc/commonstrings.php:39
+msgid "Manage Licenses"
+msgstr "Управљајте лиценцама"
+
+#: inc/commonstrings.php:38
+msgid "Notice: "
+msgstr "Napomena:"
+
+#: inc/commonstrings.php:37
+msgid " Need a license key?"
+msgstr "Потребан вам је кључ лиценце?"
+
+#: inc/commonstrings.php:36
+msgid "License Key is not set yet or invalid. "
+msgstr "Још увек није подешен или је неважећи Лиценцни Кључ"
+
+#: inc/commonstrings.php:35
+msgid "Purchase one now"
+msgstr "Купите један одмах"
+
+#: inc/commonstrings.php:32
+msgid "Finished scanning posts"
+msgstr "Завршено скенирање постова"
+
+#: inc/commonstrings.php:29
+msgid "Scan"
+msgstr "Осмотри"
+
+#: inc/commonstrings.php:28
+msgid "You do not have access to this page; try logging in as an administrator."
+msgstr "Немате приступ овој страни; покушајте да се пријавите као администратор. "
+
+#: inc/commonstrings.php:27
+msgid "Enable this option to only allow access to your sitemap by site administrators and major search engines."
+msgstr "Омогућите ову опцију сам да дозволите приступ вашој мапи сајта администраторима и битним претраживачима. "
+
+#: inc/commonstrings.php:26
+msgid "If checked, only posts that have videos in them will be displayed on the sitemap."
+msgstr "Уколико је штиклирано, само постови који имЈУ видео у себи ће бити приказани на мапи сајта. "
+
+#: inc/commonstrings.php:25
+msgid "Press the Scan button to scan your posts for videos! Do this if video content from a post or posts is not showing up in your sitemap."
+msgstr "Притисните дугме Скенирај да скенирате ваше постове за видео! Урадите ово ако је видео садржај од поста или постова који се не приказују на вашој мапи сајта."
+
+#: inc/commonstrings.php:24
+msgid "Restrict Access to Video Sitemap"
+msgstr "Ограничи приступ видео мапи сајта"
+
+#: inc/commonstrings.php:23
+msgid "Scan Posts For Videos"
+msgstr "Скенирај постове за видео"
+
+#: inc/commonstrings.php:22
+msgid "Show Only Posts With Videos"
+msgstr "Прикажи само постове са видеом"
+
+#: all_in_one_seo_pack.php:288
+msgid "Amazon Wishlist"
+msgstr "Листа жеља са АМАЗОН-а"
+
+#: all_in_one_seo_pack.php:340
+msgid "Upgrade to Pro"
+msgstr "Ажурирај на Pro"
+
+#: all_in_one_seo_pack.php:329
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: all_in_one_seo_pack.php:319
+msgid "SEO Settings"
+msgstr "SEO podešavanja"
+
+#: aioseop_class.php:4707
+msgid "About"
+msgstr "Информације"
+
+#: aioseop_class.php:3767
+msgid "Debug String"
+msgstr "Дебаг низ"
+
+#: aioseop_class.php:3074
+msgid "Thank you for running the latest and greatest All in One SEO Pack Pro ever! Please review your settings, as we're always adding new features for you!"
+msgstr "Хвала вам што користите најновији и најбољи All in One SEO Pack Pro икада! Молимо вас да проверите ваша подешавања, јер ми увек додајемо нова подешавања за вас. "
+
+#: aioseop_class.php:3239
+msgid "%taxonomy_description% - The description of the taxonomy"
+msgstr "%taxonomy_description% - Опис таксономије"
+
+#: aioseop_class.php:3238
+msgid "%taxonomy_title% - The original title of the taxonomy"
+msgstr "%taxonomy_title% - Оригинални наслов таксономије"
+
+#: aioseop_class.php:3224
+msgid "Taxonomy Title Format:"
+msgstr "Формат наслова таксономије:"
+
+#: aioseop_class.php:965 all_in_one_seo_pack.php:324
+msgid "Support Forum"
+msgstr "Форум За Подршку"
+
+#: aioseop_class.php:535
+msgid "SEO on only these taxonomies:"
+msgstr "SEO само за следеће таксономије:"
+
+#: aioseop_class.php:339
+msgid "License Key:"
+msgstr "Licenca:"
+
+#: aioseop_class.php:178
+msgid "Use these checkboxes to select which Taxonomies you want to use All in One SEO Pack with."
+msgstr "Користите поља за штиклирање да изаберете које Таксономије желите да користите за ваш All in One SEO Pack."
+
+#: aioseop_class.php:80
+msgid "This will be the license key received when the product was purchased. This is used for automatic upgrades."
+msgstr "Ово ће бити кључ лиценце који је примљен када је производ купљен. Ово се користи за аутоматска ажурирања. "
+
+#: modules/aioseop_opengraph.php:202
+msgid "Facebook App ID"
+msgstr "Фацебоок Апп ИД"
+
+#: modules/aioseop_opengraph.php:197
+msgid "Facebook Admin ID"
+msgstr "Facebook Admin ID"
+
+#: aioseop_class.php:3682
+msgid "You can %s click here%s to go to your reading settings and toggle your blog visibility."
+msgstr "Можете %s кликнути овде%s да одете на ваша подешавања читања и go to your reading settings and искључите видљивост вашег блога."
+
+#: aioseop_class.php:3681
+msgid "Warning: You're blocking access to search engines."
+msgstr "Упозорење: блокирате приступ претраживачима"
+
+#. Author URI of the plugin/theme
+msgid "http://michaeltorbert.com"
+msgstr "http://michaeltorbert.com"
+
+#. Author of the plugin/theme
+msgid "Michael Torbert"
+msgstr "Majkl Torbert"
+
+#. Plugin URI of the plugin/theme
+msgid "http://semperfiwebdesign.com"
+msgstr "http://semperfiwebdesign.com"
+
+#. Plugin Name of the plugin/theme
+msgid "All In One SEO Pack"
+msgstr "All In One SEO Pack"
+
+#: modules/aioseop_sitemap.php:1288
+msgid "Failed to notify %s about changes to your sitemap at %s, unable to access via wp_remote_get()."
+msgstr "Neuspešno obaveštenje %s o promenama na vašoj mapis sajta u %s, nemogućnost pristupa putem wp_remote_get()."
+
+#: modules/aioseop_sitemap.php:1285
+msgid "Failed to notify %s about changes to your sitemap at %s, error code %s."
+msgstr "Neupsešno obaveštavanje %s  o promenama na vašoj mapi sajta preko  %s, kod greške %s."
+
+#: modules/aioseop_sitemap.php:1117
+msgid "static"
+msgstr "Statičke"
+
+#: modules/aioseop_sitemap.php:1122
+msgid "dynamic"
+msgstr "Dinamički"
+
+#: modules/aioseop_sitemap.php:1119
+msgid "compressed"
+msgstr "Zbijen"
+
+#: modules/aioseop_sitemap.php:993
+msgid "Delete Conflicting Files"
+msgstr "Izbrišite fajlove u konfliktu"
+
+#: modules/aioseop_sitemap.php:992
+msgid "Rename Conflicting Files"
+msgstr "Preimenujte fajlove u konfliktu"
+
+#: modules/aioseop_sitemap.php:958
+msgid "Potential conflict with unknown file %s."
+msgstr "Potencijalni konflikt sa nepoznatim fajlom %s."
+
+#: modules/aioseop_sitemap.php:953
+msgid "Warning: a static sitemap '%s' generated by All in One SEO Pack %s on %s already exists that may conflict with dynamic sitemap generation."
+msgstr "Upozorenje: statička mapa sajta '%s' generisana od All in One SEO Pack %s na %s koja postoji može da izazove konflikt sa dinamičkim generisanjem mape sajta."
+
+#: modules/aioseop_sitemap.php:874
+msgid "Couldn't find file %s!"
+msgstr "Nemoguće pronalaženje fajla %s!"
+
+#: modules/aioseop_sitemap.php:870
+msgid "Renamed %s to %s."
+msgstr "Promenjeno ime %s u %s."
+
+#: modules/aioseop_sitemap.php:866
+msgid "Couldn't rename file %s!"
+msgstr "Nemoguća promena imena fajla %s!"
+
+#: modules/aioseop_sitemap.php:856
+msgid "Deleted %s."
+msgstr "Obrisano %s."
+
+#: modules/aioseop_sitemap.php:839
+msgid "Warning: dynamic sitemap generation must have permalinks enabled."
+msgstr "Upozorenje: dinamičko generisanje mape sajta mora da ima omogućene permalinkove. "
+
+#: modules/aioseop_sitemap.php:640
+msgid "Warning: your privacy settings are configured to ask search engines to not index your site; you can change this under %s for your blog."
+msgstr "Upozorenje: vaša podešavanja privatnosti su konfigurisana da traže od pretraživača da ne indeksuju vaš sajt; ovo možete promeniti pod %s za svoj blog. "
+
+#: modules/aioseop_sitemap.php:638
+msgid "Privacy Settings"
+msgstr "Podešavanja privatnosti"
+
+#: modules/aioseop_sitemap.php:636
+msgid "Reading Settings"
+msgstr "Podešavanja čitanja"
+
+#: modules/aioseop_sitemap.php:630
+msgid "Dynamic sitemap generation does not appear to be using the correct rewrite rules; please disable any other sitemap plugins or functionality on your site and reset your permalinks."
+msgstr "Čini se da dinamičko generisanje mape sajta se ne koristi tačna pravila prepisivanja; molimo vas da onemogućite bilo koje druge pluginove mape sajta na svom sajtu i resetujete svoje permalinkove. "
+
+#: modules/aioseop_sitemap.php:616
+msgid "view your sitemap"
+msgstr "Pogled tvoj sitemap"
+
+#: modules/aioseop_sitemap.php:555
+msgid "Update Sitemap"
+msgstr "Ažurirajte mapu sajta"
+
+#: modules/aioseop_sitemap.php:478
+msgid " Taxonomy"
+msgstr "Taksonomija"
+
+#: modules/aioseop_sitemap.php:477
+msgid " Post Type"
+msgstr "Tip posta"
+
+#: modules/aioseop_sitemap.php:476
+msgid "Manually set the frequency for the "
+msgstr "Ručno podesite učestalost za "
+
+#: modules/aioseop_sitemap.php:475
+msgid "Manually set the priority for the "
+msgstr "Ručno odrediti prioritet"
+
+#: modules/aioseop_sitemap.php:471
+msgid "All Taxonomies"
+msgstr "Sve taksonomije"
+
+#: modules/aioseop_sitemap.php:470
+msgid "All Post Types"
+msgstr "Svi tipovi postova"
+
+#: modules/aioseop_sitemap.php:468
+msgid "Media / Attachments"
+msgstr "Mediji / Prilozi"
+
+#: modules/aioseop_sitemap.php:382
+msgid "Daily scheduled sitemap check has finished."
+msgstr "Završeno je dnevna zakazana provera mape sajta. "
+
+#: modules/aioseop_sitemap.php:359
+msgid "Once Monthly"
+msgstr "Jednom mesečno"
+
+#: modules/aioseop_sitemap.php:355
+msgid "Once Weekly"
+msgstr "Jednom nedeljno"
+
+#: modules/aioseop_sitemap.php:286
+msgid "Frequencies"
+msgstr "Učestalosti"
+
+#: modules/aioseop_sitemap.php:280
+msgid "Priorities"
+msgstr "Prioriteti"
+
+#: modules/aioseop_sitemap.php:274
+msgid "Excluded Items"
+msgstr "Isključene stavke"
+
+#: modules/aioseop_sitemap.php:264
+msgid "Excluded Pages"
+msgstr "Isključene srane"
+
+#: modules/aioseop_sitemap.php:260
+msgid "Excluded Categories"
+msgstr "Isključene kategorije"
+
+#: modules/aioseop_sitemap.php:250
+msgid "Add URL"
+msgstr "Dodaj URL"
+
+#: modules/aioseop_sitemap.php:243 modules/aioseop_sitemap.php:268
+msgid "Additional Pages"
+msgstr "Dodatna Strana"
+
+#: modules/aioseop_sitemap.php:237
+msgid "Last Modified"
+msgstr "Poslednja modifikovane"
+
+#: modules/aioseop_sitemap.php:230
+msgid "Page Frequency"
+msgstr "Frekventnost stranice"
+
+#: modules/aioseop_sitemap.php:223
+msgid "Page Priority"
+msgstr "Prioritet stranice"
+
+#: modules/aioseop_sitemap.php:217
+msgid "Page URL"
+msgstr "URL stranice"
+
+#: modules/aioseop_sitemap.php:211
+msgid "Enter information below for any additional links for your sitemap not already managed through WordPress."
+msgstr "Unesi informacije ispod za bilo koje dodatne linkove za svoju mapu sajta kojom već ne upravljate preko WordPress-a. "
+
+#: modules/aioseop_sitemap.php:197
+msgid "Manually set the %s of your %s."
+msgstr "Ručno podesi %s svoje %s."
+
+#: modules/aioseop_sitemap.php:185
+msgid "author pages"
+msgstr "autorizuj strane"
+
+#: modules/aioseop_sitemap.php:184
+msgid "archive pages"
+msgstr "arhiviraj strane"
+
+#: modules/aioseop_sitemap.php:183
+msgid "taxonomies"
+msgstr "taksonomije"
+
+#: modules/aioseop_sitemap.php:182
+msgid "posts"
+msgstr "postovi"
+
+#: modules/aioseop_sitemap.php:181
+msgid "homepage"
+msgstr "Početna"
+
+#: modules/aioseop_sitemap.php:174
+msgid "frequency"
+msgstr "Frekvencija"
+
+#: modules/aioseop_sitemap.php:173
+msgid "priority"
+msgstr "prioritet. "
+
+#: modules/aioseop_sitemap.php:160
+msgid "Select Individual"
+msgstr "Izaberite pojedinačno. "
+
+#: modules/aioseop_sitemap.php:159
+msgid "Do Not Override"
+msgstr "Ne obarajte"
+
+#: modules/aioseop_sitemap.php:143
+msgid "Sitemap Status"
+msgstr "Status mape sajta"
+
+#: modules/aioseop_sitemap.php:132
+msgid "Dynamically Generate Sitemap"
+msgstr "Dinamički generišite mapu sajta"
+
+#: modules/aioseop_sitemap.php:128
+msgid "Link From Virtual Robots.txt"
+msgstr "Link od Virtual Robots.txt"
+
+#: modules/aioseop_sitemap.php:124
+msgid "Create Compressed Sitemap"
+msgstr "Kreirajte kompresovanu mapu sajta. "
+
+#: modules/aioseop_sitemap.php:122
+msgid "Include Author Pages"
+msgstr "Uključite stranice Autora. "
+
+#: modules/aioseop_sitemap.php:121
+msgid "Include Date Archive Pages"
+msgstr "Uključite stranice Arhiviranih Datuma. "
+
+#: modules/aioseop_sitemap.php:117
+msgid "Taxonomies"
+msgstr "Taksonomije"
+
+#: modules/aioseop_sitemap.php:112
+msgid "Post Types"
+msgstr "Tipovi posta"
+
+#: modules/aioseop_sitemap.php:106
+msgid "Maximum Posts Per Sitemap"
+msgstr "Maksimalan broj postova po mapi sajta"
+
+#: modules/aioseop_sitemap.php:102
+msgid "Paginate Sitemap Indexes"
+msgstr "Obeležiti indekse mape sajta"
+
+#: modules/aioseop_sitemap.php:100
+msgid "Enable Sitemap Indexes"
+msgstr "Omogućiti Sitemap pokazatelji"
+
+#: modules/aioseop_sitemap.php:96
+msgid "Monthly"
+msgstr "Mesečni"
+
+#: modules/aioseop_sitemap.php:95
+msgid "Weekly"
+msgstr "Nedeljni"
+
+#: modules/aioseop_sitemap.php:94
+msgid "Daily"
+msgstr "Dnevnik"
+
+#: modules/aioseop_sitemap.php:93
+msgid "No Schedule"
+msgstr "Nema raspored"
+
+#: modules/aioseop_sitemap.php:90
+msgid "Schedule Updates"
+msgstr "Raspored programa"
+
+#: modules/aioseop_sitemap.php:84
+msgid "Filename Prefix"
+msgstr "Prefiks imena fajla"
+
+#: modules/aioseop_sitemap.php:58
+msgid "Use page slugs or page IDs, seperated by commas, to exclude pages from the sitemap."
+msgstr "Iskoristite slagove stranica ili ID stranica, odvojene zarezima, da isključite stranice iz mape sajta."
+
+#: modules/aioseop_sitemap.php:57
+msgid "Entries from these categories will be excluded from the sitemap."
+msgstr "Unosi iz ovih kategorija će biti isključeni iz mape sajta"
+
+#: modules/aioseop_sitemap.php:56
+msgid "Last modified date of the page."
+msgstr "Poslednji modifikovani datum stranice. "
+
+#: modules/aioseop_sitemap.php:55
+msgid "The frequency of the page."
+msgstr "Učestalost stranice."
+
+#: modules/aioseop_sitemap.php:54
+msgid "The priority of the page."
+msgstr "Prioritet."
+
+#: modules/aioseop_sitemap.php:53
+msgid "URL to the page."
+msgstr "URL na stranicu."
+
+#: modules/aioseop_sitemap.php:51
+msgid "Places a link to your Sitemap.xml into your virtual Robots.txt file."
+msgstr "Ostavlja link do Vašeg Sitemap.xml  u Vašem virtualnom Robots.txt fajlu."
+
+#: modules/aioseop_sitemap.php:50
+msgid "Create a compressed sitemap file in .xml.gz format."
+msgstr "Kreirajte kompresovani fajl na mapi sajta u .xml.gz formatu. "
+
+#: modules/aioseop_sitemap.php:49
+msgid "Include Author Archives in your sitemap."
+msgstr "Uključite Arhive Autora na Vašoj mapi sajta. "
+
+#: modules/aioseop_sitemap.php:48
+msgid "Include Date Archives in your sitemap."
+msgstr "Uključite Arhive Datuma na Vašoj mapi sajta. "
+
+#: modules/aioseop_sitemap.php:47
+msgid "Select which taxonomy archives appear in your sitemap"
+msgstr "Izaberite koja arhiva taksonomije će se pojavljivati na Vašoj mapi sajta. "
+
+#: modules/aioseop_sitemap.php:46
+msgid "Select which Post Types appear in your sitemap."
+msgstr "Izaberite koji Tipovi Postova će se pojavljivati na vašoj mapi sajta. "
+
+#: modules/aioseop_sitemap.php:45
+msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
+msgstr "Dozvoljava Vam da odredite maksimalni broj postova na mapi sajta (do 50 000)."
+
+#: modules/aioseop_sitemap.php:44
+msgid "Split long sitemaps into separate files."
+msgstr "Podelite dugačke mape sajtova u posebne fajlove."
+
+#: modules/aioseop_sitemap.php:43
+msgid "Organize sitemap entries into distinct files in your sitemap. Enable this only if your sitemap contains over 50,000 URLs or the file is over 5MB in size."
+msgstr "Organizujte unose mape sajta u odvojene fajlove na svojoj mapi sajta. Omogućite ovo samo ukoliko vaša mapa sajta sadrži preko 50 000 UPL-ova ili ukoliko fajl ima preko 5MB."
+
+#: modules/aioseop_sitemap.php:42
+msgid "Notify search engines based on the selected schedule, and also update static sitemap daily if in use. (this uses WP-Cron, so make sure this is working properly on your server as well)"
+msgstr "Dnevno obaveštavajte pretraživače, i takođe dnevno ažurirajte statičku mapu sajta ukoliko je u upotrebi. (ovo koristi WP-Cron, s toga se pobrinite da ovo takođe ispravno radi na vašem serveru)"
+
+#: modules/aioseop_sitemap.php:41
+msgid "Specifies the name of your sitemap file. This will default to 'sitemap'."
+msgstr "Određuje ime vašeg fajla sajt mape. Ovo će automatski voditi do 'mapa sajta'."
+
+#: modules/aioseop_sitemap.php:31
+msgid "XML Sitemap"
+msgstr "XML Mapa sajta"
+
+#: modules/aioseop_robots.php:363
+msgid "More Information"
+msgstr "Više informacija"
+
+#: modules/aioseop_robots.php:361
+msgid "The red indicator means that the syntax is invalid for a robots.txt file."
+msgstr "Crveni indikator znači da je sintaksa nevalidna za robots.txt fajl. "
+
+#: modules/aioseop_robots.php:360
+msgid "The yellow indicator means that a non-standard extension was recognized; not all crawlers may recognize it or interpret it the same way. The Allow and Sitemap directives are commonly used by Google and Yahoo."
+msgstr "Žuti indikator znači da je prepoznata nestandardna ekstenzija; možda je svi kroleri ne prepoznaju ili prozumače na isti način. Direktive Dozvoli i Mapa Sajta se obično koriste od strane Google ili Yahoo."
+
+#: modules/aioseop_robots.php:358
+msgid "Legend"
+msgstr "Legenda"
+
+#: modules/aioseop_robots.php:299
+msgid "Proposed Changes"
+msgstr "Predložene promene"
+
+#: modules/aioseop_robots.php:299 modules/aioseop_robots.php:301
+msgid "Current File"
+msgstr "Trenutni fajl"
+
+#: modules/aioseop_robots.php:154
+msgid "Your Robots.txt file has been optimized.  Here are the results and recommendations.  Click the Update Robots.txt File button below to write these changes to your Robots.txt file.  Click the Disregard Changes button to ignore these recommendations and keep your current Robots.txt file."
+msgstr "Vaš Robots.txt fajl je prilagođen. Evo rezultata i preporuka. Kliknite Ažuriraj Robots.txt Fajl dugme koje se nalazi ispod kako biste napisali ove promene svom Robots.txt fajlu. Kliknite dugme Odbacite Promene kako biste ignorisali ove preporuke i zadržali svoj Robots.txt fajl. "
+
+#: modules/aioseop_robots.php:144
+msgid "Optimize your Robots.txt File"
+msgstr "Prilagodite vaš Robots.txt fajl"
+
+#: modules/aioseop_robots.php:130
+msgid "Create a Robots.txt File"
+msgstr "Kreirajte Robots.txt Fajl. "
+
+#: modules/aioseop_robots.php:97
+msgid "Optimize"
+msgstr "Prilagodite"
+
+#: modules/aioseop_robots.php:91
+msgid "Disregard Changes"
+msgstr "Zamenarite promene. "
+
+#: modules/aioseop_robots.php:84
+msgid "Update Robots.txt File"
+msgstr "Ažurirajte Robots.txt. "
+
+#: modules/aioseop_robots.php:78
+msgid "Click the Optimize button below and All in One SEO Pack will analyze your Robots.txt file to make sure it complies with the standards for Robots.txt files.  The results will be displayed in a table below."
+msgstr "Kliknite Prilagodi dugme ispod i All in One SEO Pack će analizirati Vaš Robots.txt fajl kako bi se pobrinuo da se u saglasnosti sa standardima Robots.txt fajlova. Rezultati će biti prikazani u tabeli koja se nalazi ispod. "
+
+#: modules/aioseop_robots.php:72
+msgid "Delete Robots.txt File"
+msgstr "Izbrišite Robots.txt. "
+
+#: modules/aioseop_robots.php:66
+msgid "Save Robots.txt File"
+msgstr "Sačuvajte Robots.txt. "
+
+#: modules/aioseop_robots.php:60
+msgid "Add Rule"
+msgstr "Dodajte pravilo. "
+
+#: modules/aioseop_robots.php:48
+msgid "Generate Robots.txt"
+msgstr "Generišite Robots.txt. "
+
+#: modules/aioseop_robots.php:28
+msgid "Use the rule builder below to add rules to create a new Robots.txt file.  If you already have a Robots.txt file you should use the File Editor feature in All in One SEO Pack to edit it or you can delete your current Robots.txt file and start a new one with the rule builder below."
+msgstr "Koristite pravioca pravila ispod da dodate pravila i napravite novi Robots.txt fajl. Ukoliko već imate Robots.txt fajl treba da koristite pogodnosti Uređivača Datoteka  u All in One SEO Pack kako biste uredili ili izbrisali svoj trenutni Robots.txt fajl i počeli novi sa praviocem pravila koji se nalazi ispod. "
+
+#: modules/aioseop_robots.php:20 modules/aioseop_robots.php:43
+msgid "Directory Path"
+msgstr "Put direktorija. "
+
+#: modules/aioseop_robots.php:19 modules/aioseop_robots.php:38
+msgid "User Agent"
+msgstr "Korisnički agent. "
+
+#: modules/aioseop_robots.php:18 modules/aioseop_robots.php:32
+msgid "Rule Type"
+msgstr "Opis taksonomije. "
+
+#: modules/aioseop_performance.php:315
+msgid "Submit"
+msgstr "Predati"
+
+#: modules/aioseop_performance.php:314
+msgid "E-mail debug information"
+msgstr "Е-маил дебаг информација"
+
+#: modules/aioseop_performance.php:308
+msgid "Error: please enter an e-mail address before submitting."
+msgstr "Greške: unesite e-mail adresu pre podnošenja."
+
+#: modules/aioseop_performance.php:305
+msgid "Failed to send to %s."
+msgstr "Неуспело слање %s."
+
+#: modules/aioseop_performance.php:303
+msgid "Sent to %s."
+msgstr "Na %s."
+
+#: modules/aioseop_performance.php:302
+msgid "SFWD Debug Mail From Site %s."
+msgstr "SFWD Debug маил од сајта %s."
+
+#: modules/aioseop_performance.php:288
+msgid "Form submission error: verification check failed."
+msgstr "Грешка у предају формулара: неуспела провера верификације."
+
+#: modules/aioseop_performance.php:270
+msgid "All in One SEO Pack Pro Debug Info"
+msgstr "All in One SEO Pack Pro Debug Info"
+
+#: modules/aioseop_performance.php:255
+msgid "Active Theme"
+msgstr "Aktivna tema"
+
+#: modules/aioseop_performance.php:254
+msgid "Multisite"
+msgstr "Višenamenski sajt"
+
+#: modules/aioseop_performance.php:253
+msgid "WordPress DB Version"
+msgstr "WordPress DB Verzija"
+
+#: modules/aioseop_performance.php:252
+msgid "WordPress Version"
+msgstr "WordPress Verzija"
+
+#: modules/aioseop_performance.php:251
+msgid "Home URL"
+msgstr "URL naslovne"
+
+#: modules/aioseop_performance.php:250
+msgid "Site URL"
+msgstr "URL sajta"
+
+#: modules/aioseop_performance.php:249
+msgid "PHP XML support"
+msgstr "PHP XML podrška"
+
+#: modules/aioseop_performance.php:248
+msgid "PHP IPTC support"
+msgstr "PHP IPTC podrška"
+
+#: modules/aioseop_performance.php:247
+msgid "PHP Exif support"
+msgstr "PHP Exif podrška"
+
+#: modules/aioseop_performance.php:246
+msgid "PHP Max Script Execute Time"
+msgstr "PHP Max veličina posta"
+
+#: modules/aioseop_performance.php:245
+msgid "PHP Max Post Size"
+msgstr "PHP Max veličina za učitavanje"
+
+#: modules/aioseop_performance.php:244
+msgid "PHP Max Upload Size"
+msgstr "PHP Maksimalna veličina uvoženja"
+
+#: modules/aioseop_performance.php:243
+msgid "PHP Memory Limit"
+msgstr "PHP Ograničenje memorije"
+
+#: modules/aioseop_performance.php:242
+msgid "PHP Allow URL fopen"
+msgstr "PHP Dozvoli URL fopen"
+
+#: modules/aioseop_performance.php:241
+msgid "PHP Version"
+msgstr "PHP Verzija"
+
+#: modules/aioseop_performance.php:240
+msgid "SQL Mode"
+msgstr "SQL Mod"
+
+#: modules/aioseop_performance.php:239
+msgid "MYSQL Version"
+msgstr "MYSQL Verzija"
+
+#: modules/aioseop_performance.php:238
+msgid "Memory usage"
+msgstr "Upotreba memorije"
+
+#: modules/aioseop_performance.php:237
+msgid "Server"
+msgstr "Server"
+
+#: modules/aioseop_performance.php:236
+msgid "Operating System"
+msgstr "Operativni Sistem"
+
+#: modules/aioseop_performance.php:203 modules/aioseop_performance.php:208
+#: modules/aioseop_performance.php:213 modules/aioseop_performance.php:222
+msgid "Yes"
+msgstr "Da"
+
+#: modules/aioseop_performance.php:198
+msgid " MByte"
+msgstr " MByte"
+
+#: modules/aioseop_performance.php:180 modules/aioseop_performance.php:185
+#: modules/aioseop_performance.php:190 modules/aioseop_performance.php:195
+#: modules/aioseop_performance.php:200 modules/aioseop_performance.php:228
+msgid "N/A"
+msgstr "N/A"
+
+#: modules/aioseop_performance.php:175
+msgid "Off"
+msgstr "Isključeno"
+
+#: modules/aioseop_performance.php:173
+msgid "On"
+msgstr "Uključeno"
+
+#: modules/aioseop_performance.php:170
+msgid "Not set"
+msgstr "Nije podešeno"
+
+#: modules/aioseop_performance.php:86
+msgid "System Status"
+msgstr "Status sitema"
+
+#: modules/aioseop_performance.php:49
+msgid "No limit"
+msgstr "Bez ograničenja"
+
+#: modules/aioseop_performance.php:40
+msgid "Raise execution time"
+msgstr "Povećaj vreme izvršenja"
+
+#: modules/aioseop_performance.php:32 modules/aioseop_performance.php:44
+msgid "Use the system default"
+msgstr "Koristi podrazumevana podešavanja sistema"
+
+#: modules/aioseop_performance.php:28
+msgid "Raise memory limit"
+msgstr "Povećaj ograničenje memorije"
+
+#: modules/aioseop_performance.php:23
+msgid "Use output buffering to ensure that the title gets rewritten. Enable this option if you run into issues with the title tag being set by your theme or another plugin."
+msgstr "Koristite output bafering da osigurate da su naslovi prepisani. Omogućite ovu opciju ukoliko naiđete na probleme sa tagom naslova koji određen od strane teme ili drugog plugina. "
+
+#: modules/aioseop_performance.php:22
+msgid "This setting allows you to raise your PHP execution time to a reasonable value."
+msgstr "Ovo podešavanje vam omogućava da povećate PHP vreme izvršenja do razumne količine."
+
+#: modules/aioseop_performance.php:21
+msgid "This setting allows you to raise your PHP memory limit to a reasonable value. Note: WordPress core and other WordPress plugins may also change the value of the memory limit."
+msgstr "Ovo podešavanje vam omogućava da povećate ograničenje PHP memorije do razumne vrednosti. Zabeleška: WordPress jezgro i drugi WordPress pluginovi možda takođe promene vrednost ograničenja memorije."
+
+#: modules/aioseop_opengraph.php:1288
+msgid "Choose a default value that best describes the content of your post type."
+msgstr "Izaberite podrazumevanu vrednost koja najbolje opisuje sadržaj tipa vašeg posta. "
+
+#: modules/aioseop_opengraph.php:1281
+msgid "Object Type"
+msgstr "Tip objekta "
+
+#: modules/aioseop_opengraph.php:757
+msgid "Scan your site for duplicate social meta tags."
+msgstr "Skenirajte svoj sajt za duple društvene meta tagove. "
+
+#: modules/aioseop_opengraph.php:756
+msgid "Scan Now"
+msgstr "Skeniraj odmah"
+
+#: modules/aioseop_opengraph.php:689
+msgid "Default "
+msgstr "Podrazumevano"
+
+#: modules/aioseop_opengraph.php:637
+msgid "Blog on front page detected, suggested Facebook Object Type is 'blog'."
+msgstr "Primećen je blog na prvoj strani, sugerisani Facebook tip objekta je 'blog'."
+
+#: modules/aioseop_opengraph.php:632
+msgid "Static front page detected, suggested Facebook Object Type is 'website'."
+msgstr "Otkrivena statička prva strana, predložen Facebook Tip Objekta je 'sajt'."
+
+#: modules/aioseop_opengraph.php:598
+msgid "Scan Social Meta"
+msgstr "Skenirajte društvene meta podatke"
+
+#: modules/aioseop_opengraph.php:593
+msgid "Twitter Settings"
+msgstr "Twitter podešavanja"
+
+#: modules/aioseop_opengraph.php:577
+msgid "Facebook Settings"
+msgstr "Facebook podešavanja"
+
+#: modules/aioseop_opengraph.php:567
+msgid "Image Settings"
+msgstr "Podešavanja slike"
+
+#: modules/aioseop_opengraph.php:530
+msgid "Social Settings"
+msgstr "Društvena podešavanja"
+
+#: modules/aioseop_opengraph.php:474
+msgid "Associated Name"
+msgstr "Povezano ime"
+
+#: modules/aioseop_opengraph.php:470
+msgid "Organization"
+msgstr "Organizacija"
+
+#: modules/aioseop_opengraph.php:469
+msgid "Person"
+msgstr "Osoba"
+
+#: modules/aioseop_opengraph.php:466
+msgid "Person or Organization?"
+msgstr "Osoba ili organizacija?"
+
+#: modules/aioseop_opengraph.php:460 modules/aioseop_opengraph.php:572
+msgid "Social Profile Links"
+msgstr "Linkovi društvenih profila"
+
+#: modules/aioseop_opengraph.php:458
+msgid "Show Facebook Author on Articles"
+msgstr "Prikažite Facebook autora na člancima"
+
+#: modules/aioseop_opengraph.php:454
+msgid "Show Facebook Publisher on Articles"
+msgstr "Prikažite Facebook izdavača na člancima"
+
+#: modules/aioseop_opengraph.php:448
+msgid "Article Tags"
+msgstr "Tagovi članka"
+
+#: modules/aioseop_opengraph.php:442
+msgid "Article Section"
+msgstr "Odeljak Članka"
+
+#: modules/aioseop_opengraph.php:437
+msgid "Debug This Post"
+msgstr "Debaguj This Post"
+
+#: modules/aioseop_opengraph.php:422
+msgid "Facebook Debug"
+msgstr "Facebook Debug"
+
+#: modules/aioseop_opengraph.php:392
+msgid "Enable Facebook Meta for"
+msgstr "Omogući Facebook Meta za"
+
+#: modules/aioseop_opengraph.php:387
+msgid "Use Post Tags In Article Tags"
+msgstr "Koristi tagove posta u tagovima članaka"
+
+#: modules/aioseop_opengraph.php:382
+msgid "Use Categories In Article Tags"
+msgstr "Koristi kategorije u u tagovima članaka"
+
+#: modules/aioseop_opengraph.php:377
+msgid "Use Keywords In Article Tags"
+msgstr "Koristi ključne reči u tagovima članaka"
+
+#: modules/aioseop_opengraph.php:375
+msgid "Automatically Generate Article Tags"
+msgstr "Automatski generiši tagove članaka"
+
+#: modules/aioseop_opengraph.php:367
+msgid "Twitter Domain"
+msgstr "Twitter domen"
+
+#: modules/aioseop_opengraph.php:365
+msgid "Show Twitter Author"
+msgstr "Prikaži Twitter autora"
+
+#: modules/aioseop_opengraph.php:361
+msgid "Twitter Site"
+msgstr "Twitter sajt"
+
+#: modules/aioseop_opengraph.php:352
+msgid "Twitter Card Type"
+msgstr "Tip Twitter kartice"
+
+#: modules/aioseop_opengraph.php:346 modules/aioseop_opengraph.php:355
+msgid "Summary Large Image"
+msgstr "Sažetak velike slike"
+
+#: modules/aioseop_opengraph.php:345 modules/aioseop_opengraph.php:356
+msgid "Summary"
+msgstr "Sažetak"
+
+#: modules/aioseop_opengraph.php:342
+msgid "Default Twitter Card"
+msgstr "Podrazumevana Twitter kartica"
+
+#: modules/aioseop_opengraph.php:330
+msgid "Specify Video Height"
+msgstr "Odredi visinu videa. "
+
+#: modules/aioseop_opengraph.php:318
+msgid "Specify Video Width"
+msgstr "Odredite širinu videa"
+
+#: modules/aioseop_opengraph.php:314
+msgid "Custom Video"
+msgstr "Nasumični video"
+
+#: modules/aioseop_opengraph.php:309
+msgid "Specify Image Height"
+msgstr "Odredite visinu slike"
+
+#: modules/aioseop_opengraph.php:304
+msgid "Specify Image Width"
+msgstr "Odredite širinu slike"
+
+#: modules/aioseop_opengraph.php:300
+msgid "Custom Image"
+msgstr "Nasumična slika"
+
+#: modules/aioseop_opengraph.php:295
+msgid "Image"
+msgstr "Slika"
+
+#: modules/aioseop_opengraph.php:289 modules/aioseop_opengraph.php:415
+msgid "Facebook Object Type"
+msgstr "Facebook Tip Objekta"
+
+#: modules/aioseop_opengraph.php:284
+msgid "Use Custom Field For Image"
+msgstr "Iskoristite nasumično polje za sliku"
+
+#: modules/aioseop_opengraph.php:279
+msgid "Default Image Height"
+msgstr "Visina podrazumevane slike"
+
+#: modules/aioseop_opengraph.php:274
+msgid "Default Image Width"
+msgstr "Širina podrazumevane slike"
+
+#: modules/aioseop_opengraph.php:269
+msgid "Default OG:Image"
+msgstr "Podrazumevana OG:Image"
+
+#: modules/aioseop_opengraph.php:265
+msgid "Use Default If No Image Found"
+msgstr "Iskoristite podrazumevano ukoliko se ne pronađe slika"
+
+#: modules/aioseop_opengraph.php:261
+msgid "First Available Image"
+msgstr "Prva dostupna slika"
+
+#: modules/aioseop_opengraph.php:260
+msgid "Post Author Image"
+msgstr "Postavite sliku autora"
+
+#: modules/aioseop_opengraph.php:259
+msgid "Image From Custom Field"
+msgstr "Slika iz nasumičnog polja"
+
+#: modules/aioseop_opengraph.php:258
+msgid "First Image In Content"
+msgstr "Prva slika u sadržaju"
+
+#: modules/aioseop_opengraph.php:257
+msgid "First Attached Image"
+msgstr "Prva priložena slika"
+
+#: modules/aioseop_opengraph.php:256
+msgid "Featured Image"
+msgstr "Prikazana slika"
+
+#: modules/aioseop_opengraph.php:255
+msgid "Default Image"
+msgstr "Podrazumevana slika"
+
+#: modules/aioseop_opengraph.php:252
+msgid "Select OG:Image Source"
+msgstr "Izaberi OG:Image izvor"
+
+#: modules/aioseop_opengraph.php:248
+msgid "Autogenerate OG Descriptions"
+msgstr "Autogenerisani OG opisi"
+
+#: modules/aioseop_opengraph.php:242
+msgid "Home Article Tags"
+msgstr "Tagovi početnog članka"
+
+#: modules/aioseop_opengraph.php:238
+msgid "Home Image"
+msgstr "Početna slika"
+
+#: modules/aioseop_opengraph.php:226
+msgid "Home Description"
+msgstr "Početni opis"
+
+#: modules/aioseop_opengraph.php:214
+msgid "Home Title"
+msgstr "Početni naslov"
+
+#: modules/aioseop_opengraph.php:209
+msgid "Site Name"
+msgstr "Ime sajta"
+
+#: modules/aioseop_opengraph.php:207
+msgid "Run Shortcodes In Description"
+msgstr "Koristi premijum brojeve u opisu"
+
+#: modules/aioseop_opengraph.php:206
+msgid "Run Shortcodes In Title"
+msgstr "Koristi premijum brojeve u naslovu"
+
+#: modules/aioseop_opengraph.php:193
+msgid "Use AIOSEO Title and Description"
+msgstr "Koristi AIOSEO Naslov i Opis"
+
+#: modules/aioseop_opengraph.php:188
+msgid "Scan Header"
+msgstr "Skeniraj Header"
+
+#: modules/aioseop_opengraph.php:185
+msgid " characters. Open Graph allows up to a maximum of %s chars for the %s."
+msgstr " karakteri. Otvoreni Grafikon dozvoljava maksimum od %s čara po %s."
+
+#: modules/aioseop_opengraph.php:130
+msgid "Add the name of the person or organization who owns these profiles."
+msgstr "Dodajte ime osobe ili organizacije koja poseduje ove profile. "
+
+#: modules/aioseop_opengraph.php:129
+msgid "Add URLs for your website's social profiles here (Facebook, Twitter, Google+, Instagram, LinkedIn), one per line."
+msgstr "Ovde dodajte URL za svoje društvene (Facebook, Twitter, Google+, Instagram, LinkedIn), jedan po liniji."
+
+#: modules/aioseop_opengraph.php:128
+msgid "Are the social profile links for your website for a person or an organization?"
+msgstr "Da li su linkovi društvenog profila vašeg sajta za osobu ili za organizaciju?"
+
+#: modules/aioseop_opengraph.php:127
+msgid "Allows your authors to be identified by their Facebook pages as content authors on the Opengraph meta for their articles."
+msgstr "Dozvoljava vašim autorima da budu identifikovani na osnovu njihove Facebook strane kao autori sadržaja na Opengraph meta za svoje članke. "
+
+#: modules/aioseop_opengraph.php:126
+msgid "Link articles to the Facebook page associated with your website."
+msgstr "Povežite članke sa Facebook stranom koja je povezana sa vašim sajtom."
+
+#: modules/aioseop_opengraph.php:125
+msgid "This Open Graph meta allows you to add a list of keywords that best describe this content."
+msgstr "Ovaj meta Otvorenog Grafikona vam omogućava da dodate listu ključnih reči koje najbolje opisuju sadržaj. "
+
+#: modules/aioseop_opengraph.php:124
+msgid "This Open Graph meta allows you to add a general section name that best describes this content."
+msgstr "Ovaj meta Otvorenog Grafikona vam omogućava da dodate ime opšteg odeljka koje najbolje opisuje ovaj sadržaj. "
+
+#: modules/aioseop_opengraph.php:123
+msgid "Press this button to have Facebook re-fetch and debug this page."
+msgstr "Pritisnite ovo dugme da ponovo dobijete Facebook i debagujete ovu stranu. "
+
+#: modules/aioseop_opengraph.php:122
+msgid "Select the Open Graph type that best describes the content of this Page or Post."
+msgstr "Izaberite tip Otvorenog Grafikona koji najbolje opisuje sadržaj ove Strane ili Posta.  "
+
+#: modules/aioseop_opengraph.php:121
+msgid "This is the Open Graph description of this Page or Post."
+msgstr "Ovo je opis Otvorenog Grafikona Strane ili Posta. "
+
+#: modules/aioseop_opengraph.php:120
+msgid "This is the Open Graph title of this Page or Post."
+msgstr "Ovo je naslov Otvorenog Grafikona Strane ili Posta. "
+
+#: modules/aioseop_opengraph.php:119
+msgid "Select which Post Types you want to use All in One SEO Pack to set Open Graph meta values for."
+msgstr "Izaberite koje Tipove Postova želite da koristite u All in One SEO Pack da podesite meta vrednosti za Otvoreni Grafikon. "
+
+#: modules/aioseop_opengraph.php:118
+msgid "Use post tags in generated article tags."
+msgstr "Koristite tagove postova u generisanim tagovima članaka. "
+
+#: modules/aioseop_opengraph.php:117
+msgid "Use catergories in generated article tags."
+msgstr "Koristite kategorije u generisanim tagovima članaka. "
+
+#: modules/aioseop_opengraph.php:116
+msgid "Use keywords in generated article tags."
+msgstr "Koristite ključne reči u generisanim tagovima članaka. "
+
+#: modules/aioseop_opengraph.php:115
+msgid "Automatically generate article tags for Facebook type article when not provided."
+msgstr "Automatski generišite tagove članaka za Facebook tip članka kada nije to omogućeno. "
+
+#: modules/aioseop_opengraph.php:113
+msgid "Enter the name of your website here."
+msgstr "Ovde unesite ime svog sajta. "
+
+#: modules/aioseop_opengraph.php:112
+msgid "Allows your authors to be identified by their Twitter usernames as content creators on the Twitter cards for their posts."
+msgstr "Dozvolite vašim autorima da budu identifikovai pomoću njihovih Twitter korisničkih imena kao kreatori sadržaja na Twitter karticama za njihove postove."
+
+#: modules/aioseop_opengraph.php:111
+msgid "Enter the Twitter username associated with your website here."
+msgstr "Unesite Twitter korisničko ime koje je povezano sa vašim sajtom ovde. "
+
+#: modules/aioseop_opengraph.php:109 modules/aioseop_opengraph.php:110
+msgid "Select the default type of Twitter card to display."
+msgstr "Izaberite podrazumevani tip Twitter kartice za prikaz."
+
+#: modules/aioseop_opengraph.php:108
+msgid "Enter the height for your Open Graph video in pixels (i.e. 600)."
+msgstr "Unesite visinu za svoj video Otvorenog Grafikona u pikselima (tj. 600)."
+
+#: modules/aioseop_opengraph.php:107
+msgid "Enter the width for your Open Graph video in pixels (i.e. 600)."
+msgstr "Unesite širinu svog videa Otvorenog grafikona u pikselima (tj. 600)."
+
+#: modules/aioseop_opengraph.php:106
+msgid "This option lets you specify a link to the Open Graph video used on this Page or Post."
+msgstr "Ova opcija vam omogućava da odredite link koji će biti korišćen kao video Otvorenog grafikona za stranu ili post:"
+
+#: modules/aioseop_opengraph.php:105
+msgid "Enter the height for your Open Graph image in pixels (i.e. 600)."
+msgstr "Unesite visinu za svoju sliku Otvorenog grafikona u pikselima (tj. 600)."
+
+#: modules/aioseop_opengraph.php:104
+msgid "Enter the width for your Open Graph image in pixels (i.e. 600)."
+msgstr "Unesite širinu za svoju sliku Otvorenog grafikona u pikselima (tj. 600)."
+
+#: modules/aioseop_opengraph.php:103
+msgid "This option lets you upload an image to use as the Open Graph image for this Page or Post."
+msgstr "Ova opcija vam omogućava da postavite sliku kako biste je iskoristili kao sliku Otvorenog grafikona za ovu stranu ili post. "
+
+#: modules/aioseop_opengraph.php:102
+msgid "This option lets you select the Open Graph image that will be used for this Page or Post, overriding the default settings."
+msgstr "Ova opcija vam omogućava da izaberete sliku Otvorenog grafikona koja će biti korišćena za ovu stranu ili post, za premošćivanje podrazumevanih podešavanja. "
+
+#: modules/aioseop_opengraph.php:101
+msgid "Set the Open Graph type for your website as either a blog or a website."
+msgstr "Podesi tip Otvorenog grafikona za svoj sajt ili kao blog ili kao sajt. "
+
+#: modules/aioseop_opengraph.php:100
+msgid "Enter the name of a custom field (or multiple field names separated by commas) to use that field to specify the Open Graph image on Pages or Posts."
+msgstr "Unesi ime nasumičnog polja (ili više polja razdvojenih zarezima) da iskoristiš to polje za određivanje slike Otvorenog grafikona na stranama ili postovima. "
+
+#: modules/aioseop_opengraph.php:99
+msgid "This option lets you set a default height for your images, where unspecified."
+msgstr "Ova opcija vam omogućava da podesite podrazumevanu visinu za svoje slike, gde nije određeno. "
+
+#: modules/aioseop_opengraph.php:98
+msgid "This option lets you set a default width for your images, where unspecified."
+msgstr "Ova opcija vam omogućava da podesite podrazumevanu širinu za svoje slike, gde nije određeno. "
+
+#: modules/aioseop_opengraph.php:97
+msgid "This option sets a default image that can be used for the Open Graph image. You can upload an image, select an image from your Media Library or paste the URL of an image here."
+msgstr "Ova opcija podešava podrazumevanu sliku koja može biti korišćena kao slika Otvorenog Grafikona. Možete uvesti sliku, izabrati sliku iz vaše Medijske Biblioteke ili ovde nalepiti URL slike. "
+
+#: modules/aioseop_opengraph.php:96
+msgid "This option lets you fall back to the default image if no image could be found above."
+msgstr "Ova opcija vam omogućava da se vratite nazad na podrazumevanu sliku ukoliko iznad ne može biti pronaći nijedna slika. "
+
+#: modules/aioseop_opengraph.php:95
+msgid "This option lets you choose which image will be displayed by default for the Open Graph image. You may override this on individual posts."
+msgstr "Ova opcija vam omogućava da izaberete koja slika će biti prikazana kao podrazumevana za sliku Otvorenog Grafikona. Možete zanemariti ovo kod individualnih postova."
+
+#: modules/aioseop_opengraph.php:94
+msgid "Check this and your Open Graph descriptions will be auto-generated from your content."
+msgstr "Štiklirajte ovo i opis Otvorenog Grafikona će biti automatski generisan iz vašeg sadržaja. "
+
+#: modules/aioseop_opengraph.php:93
+msgid "The Home Tag allows you to add a list of keywords that best describe your home page content."
+msgstr "Tag početne strane vam omogućava da dodate listu ključnih reči koje najbolje opisuju sadržaj  vaše početne strane."
+
+#: modules/aioseop_opengraph.php:92
+msgid "The Home Image is the Open Graph image for your home page."
+msgstr "Slika početne strane je slika Otvorenog Grafikona vaše početne strane."
+
+#: modules/aioseop_opengraph.php:91
+msgid "The Home Description is the Open Graph description for your home page."
+msgstr "Opis početne strane je opis Otvorenog Grafikona vaše početne strane."
+
+#: modules/aioseop_opengraph.php:90
+msgid "The Home Title is the Open Graph title for your home page."
+msgstr "Naslov Početne strane je naslov Otvorenog Grafikona vaše početne strane. "
+
+#: modules/aioseop_opengraph.php:89
+msgid "The Site Name is the name that is used to identify your website."
+msgstr "Ime Sajta je ime koje se koristi da identifikuje vaš sajt. "
+
+#: modules/aioseop_opengraph.php:88
+msgid "Run shortcodes that appear in social description meta tags."
+msgstr "Pokrenite premijum poruke koje se pojavljuju u meta tagovima društvenih opisa."
+
+#: modules/aioseop_opengraph.php:87
+msgid "Run shortcodes that appear in social title meta tags."
+msgstr "Pokrenite premijum poruke koje se pojavljuju u meta tagovima društvenih naslova. "
+
+#: modules/aioseop_opengraph.php:84
+msgid "Checking this box will use the Home Title and Home Description set in All in One SEO Pack, General Settings as the Open Graph title and description for your home page."
+msgstr "Štikliranjem ove kutije će iskoristiti Naziv i Opis koji su podešeni u All in One SEO Pack, Opštim Podešavanjima kao naslov Otvorenog Grafikona i opsia vaše početne strane. "
+
+#: modules/aioseop_opengraph.php:72 modules/aioseop_opengraph.php:79
+msgid "Website"
+msgstr "Website"
+
+#: modules/aioseop_opengraph.php:71 modules/aioseop_opengraph.php:78
+msgid "Blog"
+msgstr "Blog"
+
+#: modules/aioseop_opengraph.php:70 modules/aioseop_opengraph.php:80
+msgid "Article"
+msgstr "Član"
+
+#: modules/aioseop_opengraph.php:67
+msgid "Episode"
+msgstr "Epizoda"
+
+#: modules/aioseop_opengraph.php:66
+msgid "TV Show"
+msgstr "TV Šou"
+
+#: modules/aioseop_opengraph.php:65
+msgid "Song"
+msgstr "Pesma"
+
+#: modules/aioseop_opengraph.php:64
+msgid "Product"
+msgstr "Proizvod"
+
+#: modules/aioseop_opengraph.php:63
+msgid "Movie"
+msgstr "Film"
+
+#: modules/aioseop_opengraph.php:62
+msgid "Game"
+msgstr "Igra"
+
+#: modules/aioseop_opengraph.php:61
+msgid "Food"
+msgstr "Hrana"
+
+#: modules/aioseop_opengraph.php:60
+msgid "Drink"
+msgstr "Piće"
+
+#: modules/aioseop_opengraph.php:59
+msgid "Book"
+msgstr "Knjiga"
+
+#: modules/aioseop_opengraph.php:58
+msgid "Album"
+msgstr "Album"
+
+#: modules/aioseop_opengraph.php:55
+msgid "State Province"
+msgstr "Država Provincija"
+
+#: modules/aioseop_opengraph.php:54
+msgid "Landmark"
+msgstr "Landmark"
+
+#: modules/aioseop_opengraph.php:53
+msgid "Country"
+msgstr "Zemlja"
+
+#: modules/aioseop_opengraph.php:52
+msgid "City"
+msgstr "Grad"
+
+#: modules/aioseop_opengraph.php:49
+msgid "Public Figure"
+msgstr "Javna ličnost"
+
+#: modules/aioseop_opengraph.php:48
+msgid "Profile"
+msgstr "Profil"
+
+#: modules/aioseop_opengraph.php:47
+msgid "Politician"
+msgstr "Političar"
+
+#: modules/aioseop_opengraph.php:46
+msgid "Musician"
+msgstr "Muzičar"
+
+#: modules/aioseop_opengraph.php:45
+msgid "Director"
+msgstr "Direktor"
+
+#: modules/aioseop_opengraph.php:44
+msgid "Author"
+msgstr "Autor"
+
+#: modules/aioseop_opengraph.php:43
+msgid "Athlete"
+msgstr "Sportista"
+
+#: modules/aioseop_opengraph.php:42
+msgid "Actor"
+msgstr "Glumac"
+
+#: modules/aioseop_opengraph.php:39
+msgid "University"
+msgstr "Univerzitet"
+
+#: modules/aioseop_opengraph.php:38
+msgid "School"
+msgstr "Škola"
+
+#: modules/aioseop_opengraph.php:37
+msgid "Non Profit"
+msgstr "Neprofitna"
+
+#: modules/aioseop_opengraph.php:36
+msgid "Government"
+msgstr "Vlada"
+
+#: modules/aioseop_opengraph.php:35
+msgid "Band"
+msgstr "Opseg"
+
+#: modules/aioseop_opengraph.php:32
+msgid "Sports Team"
+msgstr "Sportski tim"
+
+#: modules/aioseop_opengraph.php:31
+msgid "Sports League"
+msgstr "Sportski savez"
+
+#: modules/aioseop_opengraph.php:30
+msgid "Cause"
+msgstr "Uzrok"
+
+#: modules/aioseop_opengraph.php:27
+msgid "Restaurant"
+msgstr "Restoran"
+
+#: modules/aioseop_opengraph.php:26
+msgid "Hotel"
+msgstr "Hotel"
+
+#: modules/aioseop_opengraph.php:25
+msgid "Cafe"
+msgstr "Kafić"
+
+#: modules/aioseop_opengraph.php:24
+msgid "Company"
+msgstr "Kompanija"
+
+#: modules/aioseop_opengraph.php:23
+msgid "Bar"
+msgstr "Bar"
+
+#: modules/aioseop_opengraph.php:20
+msgid "Sport"
+msgstr "Sport"
+
+#: modules/aioseop_opengraph.php:19
+msgid "Activity"
+msgstr "Aktivnost"
+
+#: admin/aioseop_module_class.php:2237
+msgid "Update Options"
+msgstr "Ažuriraj opcije"
+
+#: admin/aioseop_module_class.php:2172
+msgid "All in One SEO Options Updated."
+msgstr "Ažuriranje opcije All in One SEO."
+
+#: admin/aioseop_module_class.php:2163
+msgid "Options Reset."
+msgstr "Resetovanje opcija."
+
+#: admin/aioseop_module_class.php:2160 modules/aioseop_sitemap.php:844
+msgid "Security Check - If you receive this in error, log out and back in to WordPress"
+msgstr "Bezbednosna provera - ukoliko primite grešku, odlogujte se i vratite na WordPress"
+
+#: admin/aioseop_module_class.php:1964
+msgid "Click for Help!"
+msgstr "Kliknite na pomoći!"
+
+#: admin/aioseop_module_class.php:1931
+msgid " characters. Most search engines use a maximum of %s chars for the %s."
+msgstr " karaktera. Većina pretraživača koristi maksimum od %s čara za %s."
+
+#: admin/aioseop_module_class.php:1423
+msgid "Click here for documentation on this setting"
+msgstr "Kliknite ovde za dokumentaciju o ovom podešavanju"
+
+#: modules/aioseop_importer_exporter.php:513
+msgid "Settings export file for All in One SEO Pack"
+msgstr "Podešavanja fajla izvoza za All in One SEO Pack"
+
+#: modules/aioseop_importer_exporter.php:465
+msgid "<b>Warning:</b> This following post could not be found: <b>\"%s\"</b>"
+msgstr "<b>Upozorenje:</b> Sledeći post ne može biti pronađen: <b>\"%s\"</b>"
+
+#: modules/aioseop_importer_exporter.php:416
+msgid "<b>Warning:</b> Line not matched: <b>\"%s\"</b>, On Line: <b>%s</b>"
+msgstr "<b>Upozorenje:</b> Linije se ne podudaraju: <b>\"%s\"</b>, Na liniji: <b>%s</b>"
+
+#: modules/aioseop_importer_exporter.php:155
+msgid ""
+"You may change this by activating or deactivating\n"
+"\t\t\t\t\t\tmodules in the Feature Manager."
+msgstr "Možete promeniti ovo aktiviranjem ili deaktiviranjem modula u Menadžera Podešavanja."
+
+#: modules/aioseop_importer_exporter.php:148
+msgid "There are no other modules currently loaded!"
+msgstr "Trenutno nema drugih učitanih modula!"
+
+#: modules/aioseop_importer_exporter.php:115
+msgid "Export"
+msgstr "Izvoz"
+
+#: modules/aioseop_importer_exporter.php:64
+msgid ""
+"Note: If General Settings is checked, the\n"
+"\t\t\t\t\t\t\t\tGeneral Settings, the Feature Manager settings,\n"
+"\t\t\t\t\t\t\t\tand the following currently active modules will\n"
+"\t\t\t\t\t\t\t\thave their settings data exported:"
+msgstr "Zabeleška: Ukoliko se štikliraju Opšta Podešavanja, Opšta Podešavanja, podešavanja Menadžera Podešavanja, i trenutno aktivni moduli će imati svoja podešavanja podataka izvezenim: "
+
+#: modules/aioseop_importer_exporter.php:51
+msgid "Export Post Types:"
+msgstr "Tipovi izvoženja postova"
+
+#: modules/aioseop_importer_exporter.php:43
+msgid "Export Settings"
+msgstr "Izvoz postavki"
+
+#: modules/aioseop_importer_exporter.php:37
+#: modules/aioseop_importer_exporter.php:105
+msgid "Import"
+msgstr "Uvoz"
+
+#: modules/aioseop_importer_exporter.php:29
+msgid "Select which Post Types you want to export your All in One SEO Pack meta data for.<br /><a href='http://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr "Izaberite koji Tipovi Posta želite da izvezu vaš All in One SEO Pack meta podatak za.<br /><a href='http://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Kliknite ovde za dokumentaciju o ovom podešavanju</a>"
+
+#: modules/aioseop_importer_exporter.php:25
+msgid "You may choose to export settings from active modules, and content from post data.<br /><a href='http://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr "Možete izabrati da izvezete podešavanja iz aktivnih modula, i sadržaj iz postavljenih podataka.<br /><a href='http://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Kliknite ovde za dokumentaciju o ovom podešavanju</a>"
+
+#: modules/aioseop_importer_exporter.php:21
+msgid "Select a valid All in One SEO Pack ini file and click 'Import' to import options from a previous state or install of All in One SEO Pack.<br /><a href='http://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr "Izaberite važeći All in One SEO Pack ini fajl i kliknite 'Uvezi' da uvezete opcije iz prethodnog stanja ili istalirate All in One SEO Pack.<br /><a href='http://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Kliknite ovde za dokumentaciju o ovom podešavanju</a>"
+
+#: inc/aioseop_functions.php:908
+msgid "Facebook"
+msgstr "Facebook-a!"
+
+#: inc/aioseop_functions.php:905
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/aioseop_functions.php:899
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/aioseop_functions.php:568
+msgid "Please refer to the document for each tool for help in using these to debug your social meta."
+msgstr "Molimo vas da pogledate dokument za svaku alatku za pomoć prilikom korišćenja istih za debagovanje vaših društvenih meta podataka. "
+
+#: inc/aioseop_functions.php:557
+msgid "You should avoid duplicate social meta tags. You can use these free tools from Facebook, Google and Twitter to validate your social meta and check for errors:"
+msgstr "Treba da izbegavate duple društvene meta tagove. Možete iskoristiti ove besplatne alatke koje nude Facebook, Google i Twitterpotvrdite svoje društvene meta tagove i proverite greške;"
+
+#: inc/aioseop_functions.php:556
+msgid "You may prefer to use the social meta tags that are being output by the other plugin(s) or theme. If so, then you should deactivate this Social Meta feature in All in One SEO Pack Feature Manager."
+msgstr "Možda preferirate korišćenje društvenih meta tagova koje proizvode drugi pluginovi ili tema. Ukoliko je to slučaj, onda treba da deaktivirate ovo podešavanje Društvenih Meta podataka u Menadžeru podešavanja All in One SEO Pack."
+
+#: inc/aioseop_functions.php:555
+msgid "All in One SEO Pack has detected that a plugin(s) or theme is also outputting social meta tags on your site. You can view this social meta in the source code of your site (check your browser help for instructions on how to view source code)."
+msgstr "All in One SEO Pack je otkrio da plugin ili tema takođe emituje društvene meta tagove na vašem sajtu. Možete videti ove društvene meta podatke u izvornom kodu vašeg sajta (proverite odeljak pomoći na svom pretraživaču za uputstva kako da pogledate izvorni kod). "
+
+#: inc/aioseop_functions.php:554
+msgid "What Does This Mean?"
+msgstr "Šta to znači?"
+
+#: inc/aioseop_functions.php:551
+msgid "No duplicate meta tags found."
+msgstr "Nisu pronađeni duplicirani meta podaci."
+
+#: inc/aioseop_functions.php:542
+msgid "Duplicate %s Meta"
+msgstr "Duplicirajte %s Meta"
+
+#: inc/aioseop_functions.php:478
+msgid "Row %s not found; no rows were deleted."
+msgstr "Red %s nije pronađen; nijedan red nije izbrisan."
+
+#: inc/aioseop_functions.php:378
+msgid "Unauthorized access; try reloading the page."
+msgstr "Neovlašćeni pristup; pokušajte sa ponovnim učitavanjem ove stranice."
+
+#: inc/aioseop_functions.php:355 inc/aioseop_functions.php:707
+#: modules/aioseop_performance.php:205 modules/aioseop_performance.php:210
+#: modules/aioseop_performance.php:215 modules/aioseop_performance.php:224
+msgid "No"
+msgstr "Ne"
+
+#: inc/aioseop_functions.php:250
+msgid "Insert time"
+msgstr "Vreme insertovanja"
+
+#: inc/aioseop_functions.php:249
+msgid "Revisions"
+msgstr "Revizija"
+
+#: inc/aioseop_functions.php:248
+msgid "Slug may not be empty!"
+msgstr "Slag možda nije prazan!"
+
+#: inc/aioseop_functions.php:247
+msgid "Please wait..."
+msgstr "Molimo sačekajte..."
+
+#: inc/aioseop_functions.php:245
+msgid "Cancel"
+msgstr "Otkazati"
+
+#: inc/aioseop_functions.php:244
+msgid "Save"
+msgstr "Osim"
+
+#: inc/aioseop_functions.php:243
+msgid "Post"
+msgstr "Postavi"
+
+#: inc/aioseop_functions.php:242 inc/aioseop_functions.php:359
+#: inc/aioseop_functions.php:711
+msgid "Edit"
+msgstr "Uredi"
+
+#: inc/aioseop_functions.php:172
+msgid "SEO Keywords"
+msgstr "SEO ključne reči"
+
+#: inc/aioseop_functions.php:170
+msgid "SEO Description"
+msgstr "SEO Opis"
+
+#: inc/aioseop_functions.php:169
+msgid "SEO Title"
+msgstr "SEO Naslov"
+
+#: modules/aioseop_file_editor.php:108
+msgid "Update .htaccess"
+msgstr "Ažuriraj .htaccess"
+
+#: modules/aioseop_file_editor.php:102
+msgid "Update robots.txt"
+msgstr "Ažurirajrobots.txt"
+
+#: modules/aioseop_file_editor.php:65
+msgid "Edit robots.txt"
+msgstr "Uredi robots.txt"
+
+#: modules/aioseop_file_editor.php:60
+msgid ".htaccess"
+msgstr ".htaccess"
+
+#: modules/aioseop_file_editor.php:59
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: modules/aioseop_file_editor.php:43 modules/aioseop_file_editor.php:70
+msgid "Edit .htaccess"
+msgstr "Uredi .htaccess"
+
+#: modules/aioseop_file_editor.php:34
+msgid "Edit Robots.txt"
+msgstr "Uredi Robots.txt"
+
+#: modules/aioseop_file_editor.php:30
+msgid ".htaccess editor"
+msgstr ".htaccess urednika"
+
+#: modules/aioseop_file_editor.php:29 modules/aioseop_robots.php:21
+msgid "Robots.txt editor"
+msgstr "Roboti.txt urednika"
+
+#: modules/aioseop_feature_manager.php:149
+msgid "Reset Features"
+msgstr "Resetujte podešavanja"
+
+#: modules/aioseop_feature_manager.php:147
+msgid "Update Features"
+msgstr "Ažurirajte podešavanja"
+
+#: inc/commonstrings.php:21 modules/aioseop_feature_manager.php:67
+#: modules/aioseop_feature_manager.php:74
+msgid "Video Sitemap"
+msgstr "Video mapa sajta"
+
+#: modules/aioseop_feature_manager.php:62
+msgid "Coming Soon..."
+msgstr "Dolazak Uskoro..."
+
+#: modules/aioseop_feature_manager.php:46
+msgid "Exports and imports your All in One SEO Pack plugin settings."
+msgstr "Uvozi i izvozi sva All in One SEO Pack plugin podešavanja."
+
+#: modules/aioseop_feature_manager.php:45
+#: modules/aioseop_importer_exporter.php:16
+msgid "Importer & Exporter"
+msgstr "Uvoznik & Izvoznik"
+
+#: modules/aioseop_feature_manager.php:54
+msgid "Optimize performance related to SEO and check your system status."
+msgstr "Prilagodite performansu povezanu sa SEO i proverite status sitema."
+
+#: modules/aioseop_feature_manager.php:53 modules/aioseop_performance.php:15
+msgid "Performance"
+msgstr "Performanse"
+
+#: modules/aioseop_feature_manager.php:50
+msgid "Stop badly behaving bots from slowing down your website."
+msgstr "Zaustavite botove koji se loše ponašaju i koji usporavaju vaš sajt. "
+
+#: modules/aioseop_feature_manager.php:42
+msgid "Edit your robots.txt file and your .htaccess file to fine-tune your site."
+msgstr "Dodajte roboti.txt fajl i vaš .htaccess fajl vašeg sajta."
+
+#: modules/aioseop_feature_manager.php:41 modules/aioseop_file_editor.php:19
+msgid "File Editor"
+msgstr "Glavni urednik Datoteka"
+
+#: modules/aioseop_feature_manager.php:38
+msgid "Generate and validate your robots.txt file to guide search engines through your site."
+msgstr "Generišite i potvrdite svoj robots.txt fajl da vodite pretraživače kroz vaš sajt."
+
+#: modules/aioseop_feature_manager.php:37 modules/aioseop_robots.php:12
+#: modules/aioseop_robots.php:175
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: modules/aioseop_feature_manager.php:34
+msgid "Activate this feature to add Social Meta data to your site to deliver closer integration between your website/blog and Facebook, Twitter, and Google+."
+msgstr "Aktivirajte ovo podešavanje da dodate Društvene Meta podatke na vašem sajtu kako biste postigli bližu integraciju između vašeg sajta/bloga i Facebook, Twitter, i Google+."
+
+#: modules/aioseop_feature_manager.php:33 modules/aioseop_opengraph.php:14
+msgid "Social Meta"
+msgstr "Društveni Meta"
+
+#: modules/aioseop_feature_manager.php:30
+msgid "Create and manage your XML Sitemaps using this feature and submit your XML Sitemap to Google, Bing/Yahoo and Ask.com."
+msgstr "Kreiraj i upravljaj svojim XML mapama sajta koristeći ovo podešavanje i podnesite svoju XML mapu sajta Google, Bing/Yahoo i Ask.com."
+
+#: modules/aioseop_feature_manager.php:29
+msgid "XML Sitemaps"
+msgstr "XML mape sajta"
+
+#: modules/aioseop_feature_manager.php:23
+msgid "Feature Manager"
+msgstr "Menadžer podešavanja"
+
+#: aioseop_class.php:4453
+msgid "Main Settings"
+msgstr "Glavna podešavanja"
+
+#: admin/aioseop_module_class.php:1742 admin/aioseop_module_class.php:1996
+#: admin/aioseop_module_class.php:2273 aioseop_class.php:4747
+#: aioseop_class.php:4765
+msgid "Help"
+msgstr "Pomoć"
+
+#: aioseop_class.php:4717
+msgid "Version"
+msgstr "Verzija"
+
+#: aioseop_class.php:4717
+msgid "Support"
+msgstr "Podrška"
+
+#: aioseop_class.php:4702
+msgid "Join Our Mailing List"
+msgstr "Prijavite se na listu"
+
+#: aioseop_class.php:4659
+msgid "Thank you for your donation, it helps keep this plugin free and actively developed!"
+msgstr "Hvala vam za donaciju, pomaže nam da održimo vaj plugin besplatnim i pod konstantnim razvijanjem!"
+
+#: aioseop_class.php:4658
+msgid "Thank you!"
+msgstr "Hvala vam!"
+
+#: aioseop_class.php:4620
+msgid "All in One SEO"
+msgstr "Sve u jednom SEO"
+
+#: aioseop_class.php:4493
+msgid "Upgrade To Pro"
+msgstr "Ažuriraj do Pro"
+
+#: aioseop_class.php:4513
+msgid "Edit SEO"
+msgstr "Uredi SEO"
+
+#: aioseop_class.php:4486
+msgid "SEO"
+msgstr "SEO"
+
+#: inc/deprecated.php:173 inc/deprecated.php:220 inc/deprecated.php:261
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: inc/deprecated.php:145
+msgid "Connect With Google Analytics"
+msgstr "Konektujte se sa Google Analytics"
+
+#: inc/deprecated.php:138
+msgid "Remove Stored Credentials"
+msgstr "Uklonite skladištene akreditive"
+
+#: inc/deprecated.php:137
+msgid "Disconnect From Google Analytics"
+msgstr "Diskonektujte se od Google Analytics"
+
+#: aioseop_class.php:3743
+msgid "Debug Warning: All in One SEO Pack meta data was included again from %s filter. Called %s times!"
+msgstr "Debug Upozorenje: All in One SEO Pack meta data je ponovo uključen od %s filtera. Nazvano %s puta!"
+
+#: admin/display/general-metaboxes.php:159
+msgid "Getting started? Read the Beginners Guide"
+msgstr "Počinjete? Pročitajte vodič za korisnike"
+
+#: admin/display/general-metaboxes.php:155
+msgid "Watch video tutorials"
+msgstr "Pogledajte video tutorijale"
+
+#: admin/display/general-metaboxes.php:151
+msgid "View the Changelog"
+msgstr "Pogledajte Changelog"
+
+#: admin/display/general-metaboxes.php:146
+msgid "All in One SEO Pro Plugin Changelog"
+msgstr "Sve u jednom SEO dodatak log pomena"
+
+#: admin/display/general-metaboxes.php:143
+msgid "Access our Premium Support Forums"
+msgstr "Pristušote našim premijum forumima podrške"
+
+#: admin/display/general-metaboxes.php:142
+msgid "All in One SEO Pro Plugin Support Forum"
+msgstr "All in One SEO Pro Plugin Forum podrške"
+
+#: admin/display/general-metaboxes.php:138
+msgid "Read the All in One SEO Pack user guide"
+msgstr "Pročitajte All in One SEO Pack vodič za korisnike"
+
+#: admin/display/general-metaboxes.php:122
+msgid "Sign up today and receive a free copy of the e-book 5 SEO Tips for WordPress ($39 value)."
+msgstr "Prijavite se danas i primite besplatnu kopiju e-knjige 5 SEO Tips for WordPress ($39 vrednost knjige)."
+
+#: admin/display/general-metaboxes.php:120
+msgid "Join our mailing list for tips, tricks, and WordPress secrets."
+msgstr "Pridružite se našoj mejl listi za finese, trikove i WordPress  tajne. "
+
+#: admin/display/general-metaboxes.php:83
+msgid "Follow us on Twitter"
+msgstr "Pratite nas na Twitter"
+
+#: admin/display/general-metaboxes.php:80
+msgid "Follow us on Facebook"
+msgstr "Pratite nas na Facebooku!"
+
+#: admin/display/general-metaboxes.php:77
+msgid "My Amazon Wish List"
+msgstr "Moja Amazon lista želja"
+
+#: admin/display/general-metaboxes.php:73
+msgid "Donate with Paypal"
+msgstr "Doniraj sa Paypal"
+
+#: admin/display/general-metaboxes.php:70 all_in_one_seo_pack.php:284
+msgid "Donate"
+msgstr "Донирајте"
+
+#: admin/display/general-metaboxes.php:44 aioseop_class.php:959
+msgid "UPGRADE TO PRO VERSION"
+msgstr "Da PRO VERZIJA"
+
+#: admin/display/general-metaboxes.php:44
+msgid "Pro Version"
+msgstr "Pro verzija"
+
+#: admin/display/general-metaboxes.php:39
+msgid "Reset Dismissed Notices"
+msgstr "Resetujte odmačena obaveštenja"
+
+#: admin/display/general-metaboxes.php:28
+msgid "by %s of %s."
+msgstr "do %s od %s."
+
+#: aioseop_class.php:3389
+msgid "noydir"
+msgstr "noydir"
+
+#: aioseop_class.php:3388
+msgid "ydir"
+msgstr "ydir"
+
+#: aioseop_class.php:3387
+msgid "Default - noydir"
+msgstr "Podrazumevano - noydir"
+
+#: aioseop_class.php:3381
+msgid "noodp"
+msgstr "noodp"
+
+#: aioseop_class.php:3380
+msgid "odp"
+msgstr "odp"
+
+#: aioseop_class.php:3379
+msgid "Default - noodp"
+msgstr "Podrazumevano - noodp"
+
+#: aioseop_class.php:3373
+msgid "nofollow"
+msgstr "nofollow"
+
+#: aioseop_class.php:3372
+msgid "follow"
+msgstr "pratiti"
+
+#: aioseop_class.php:3371
+msgid "Default - nofollow"
+msgstr "Podrazumevano - nofollow"
+
+#: aioseop_class.php:3365
+msgid "noindex"
+msgstr "noindex"
+
+#: aioseop_class.php:3364
+msgid "index"
+msgstr "index"
+
+#: aioseop_class.php:3363
+msgid "Default - noindex"
+msgstr "Podrazumevano - noindex"
+
+#: aioseop_class.php:3281
+msgid "Reset ALL Settings to Defaults"
+msgstr "Resetujte SVA podesašavanja na Podrazumevana"
+
+#: aioseop_class.php:3277
+msgid "Reset General Settings to Defaults"
+msgstr "Resetujte Opšta podesašavanja na Podrazumevana"
+
+#: aioseop_class.php:3100
+msgid "Thank you for running the latest and greatest All in One SEO Pack ever! New since 2.2: Control who accesses your site with the new Robots.txt Editor and File Editor modules!  Enable them from the Feature Manager.  Remember to review your settings, we have added some new ones!"
+msgstr "Hvala vam što koristite najnoviji i najbolji All in One SEO Pack ikada! Nov od 2.2: Kontrolišite ko ima pristup vašem sajtu sa najnovijim modulima Robots.txt uređivača i Fajl uređivača! Omogućite ovo pomoću Menadžera Podešavanja. Ne zaboravite da proverite svoja podešavanja, dodali smo čak i neka nova!"
+
+#: aioseop_class.php:3081 aioseop_class.php:3099
+msgid "Review Your Settings"
+msgstr "Pregled podešavanja"
+
+#: aioseop_class.php:3092
+msgid "Thank you for running the latest and greatest All in One SEO Pack ever! Please review your settings, as we're always adding new features for you!"
+msgstr "Hvala vam što koristite najnoviji i najbolji All in One SEO Pack ikada! Molimo vas da proverite svoja podešavanja jer mi uvek dodajemo nova podešavanja za vas!"
+
+#: aioseop_class.php:3073 aioseop_class.php:3091
+msgid "Welcome to Version %s!"
+msgstr "Dobrodošli na verziju %s!"
+
+#: aioseop_class.php:3190
+msgid "%%tax_%s%% - This post's associated %s taxonomy title"
+msgstr "%%tax_%s%% - Povezanost ovog posta %s taksonomijskim naslovom"
+
+#: aioseop_class.php:3186
+msgid "%post_title% - The original title of the post."
+msgstr "%post_naslov - originalni naslov."
+
+#: aioseop_class.php:3172
+msgid "Title Format:"
+msgstr "Naslov:"
+
+#: aioseop_class.php:3164
+msgid "Everywhere Else"
+msgstr "Drugdje"
+
+#: aioseop_class.php:3164
+msgid "Front Page"
+msgstr "Ispred Stranice"
+
+#: aioseop_class.php:1135
+msgid "Advanced Settings"
+msgstr "Napredna podešavanja"
+
+#: aioseop_class.php:1114
+msgid "Noindex Settings"
+msgstr "Nema indeks podešavanja"
+
+#: aioseop_class.php:1087
+msgid "Google Settings"
+msgstr "Google podešavanja"
+
+#: aioseop_class.php:1082
+msgid "Webmaster Verification"
+msgstr "Webmaster verifikacija"
+
+#: aioseop_class.php:1077
+msgid "Custom Post Type Settings"
+msgstr "Podešavanja tipa nasumičnog posta"
+
+#: aioseop_class.php:1056
+msgid "Title Settings"
+msgstr "Podešavanja naslova"
+
+#: aioseop_class.php:1153
+msgid "Keyword Settings"
+msgstr "Podešavanja ključnih reči"
+
+#: aioseop_class.php:1051 modules/aioseop_opengraph.php:562
+msgid "Home Page Settings"
+msgstr "Podešavanja početne strane"
+
+#: aioseop_class.php:1030
+msgid "Disable Google Analytics"
+msgstr "Onemogući Google Analytics"
+
+#: aioseop_class.php:1028
+msgid "Disable on this page/post"
+msgstr "Onemogući na ovoj strani/postu"
+
+#: aioseop_class.php:1027
+msgid "Exclude From Sitemap"
+msgstr "Isključi iz mape sajta"
+
+#: aioseop_class.php:1023
+msgid "Menu Label"
+msgstr "Oznaka menija"
+
+#: aioseop_class.php:1018
+msgid "Title Attribute"
+msgstr "Atribut naslova"
+
+#: aioseop_class.php:1016
+msgid "Robots Meta NOYDIR"
+msgstr "Robots Meta NOYDIR"
+
+#: aioseop_class.php:1015
+msgid "Robots Meta NOODP"
+msgstr "Robots Meta NOODP"
+
+#: aioseop_class.php:1012
+msgid "Robots Meta NOFOLLOW"
+msgstr "Robots Meta NOFOLLOW"
+
+#: aioseop_class.php:1008
+msgid "Robots Meta NOINDEX"
+msgstr "Robots Meta NOINDEX"
+
+#: aioseop_class.php:1003
+msgid "Custom Canonical URL"
+msgstr "Nasumični Kanonički URL"
+
+#: aioseop_class.php:999
+msgid "Keywords (comma separated)"
+msgstr "Ključne reči (razdvojene zarezom)"
+
+#: aioseop_class.php:991 modules/aioseop_opengraph.php:406
+msgid "Description"
+msgstr "Опис"
+
+#: aioseop_class.php:985 modules/aioseop_opengraph.php:398
+msgid "Title"
+msgstr "Naslov"
+
+#: aioseop_class.php:968
+msgid "Preview Snippet"
+msgstr "Pregledaj Snippet"
+
+#: aioseop_class.php:959
+msgid "Upgrade to All in One SEO Pack Pro Version"
+msgstr "Unapredi do All in One SEO Pack Pro verzije"
+
+#: aioseop_class.php:905
+msgid "Log important events:"
+msgstr "Zapamti bitne događaje:"
+
+#: aioseop_class.php:899
+msgid "Additional Blog Page Headers:"
+msgstr "Dodatni hederi blog strane:"
+
+#: aioseop_class.php:893
+msgid "Additional Front Page Headers:"
+msgstr "Dodatni hederi prve strane:"
+
+#: aioseop_class.php:887
+msgid "Additional Page Headers:"
+msgstr "Dodatni hederi stranice:"
+
+#: aioseop_class.php:881
+msgid "Additional Post Headers:"
+msgstr "Dodatni post hederi:"
+
+#: aioseop_class.php:876
+msgid "Exclude Pages:"
+msgstr "Isključi strane:"
+
+#: aioseop_class.php:868
+msgid "Unprotect Post Meta Fields:"
+msgstr "Ne štiti polja meta postova: "
+
+#: aioseop_class.php:864
+msgid "Use Schema.org Markup"
+msgstr "Koristi Schema.org obeleživač"
+
+#: aioseop_class.php:860
+msgid "Never Shorten Long Descriptions:"
+msgstr "Nikada ne skraćuj duge opise:"
+
+#: aioseop_class.php:856
+msgid "Remove Descriptions For Paginated Pages:"
+msgstr "Ukloni opsie za obeležene strane:"
+
+#: aioseop_class.php:851
+msgid "Run Shortcodes In Autogenerated Descriptions:"
+msgstr "Pokreni premijum brojeve u autogenerisanim opisima:"
+
+#: aioseop_class.php:847
+msgid "Autogenerate Descriptions:"
+msgstr "Autogeneriši Opise:"
+
+#: aioseop_class.php:843
+msgid "Avoid Using The Excerpt In Descriptions:"
+msgstr "Izbegavajte korišćenje Odlomka u Opisima:"
+
+#: aioseop_class.php:839
+msgid "Exclude site from Yahoo! Directory:"
+msgstr "Isključi sajt iz Yahoo! Direktorijum:"
+
+#: aioseop_class.php:835
+msgid "Exclude site from the Open Directory Project:"
+msgstr "Isključi sajt iz Open Directory Project: "
+
+#: aioseop_class.php:831
+msgid "Use nofollow for paginated pages/posts:"
+msgstr "Koristi nofollow za obeležene strane/postove:"
+
+#: aioseop_class.php:827
+msgid "Use noindex for paginated pages/posts:"
+msgstr "Koristi noindex za obeležene strane/postove:"
+
+#: aioseop_class.php:821
+msgid "Use noindex for Taxonomy Archives:"
+msgstr "Koristi noindex za arhiviranje taksonomija:"
+
+#: aioseop_class.php:817
+msgid "Use noindex for the 404 page:"
+msgstr "Koristi noindex za 404 stranu:"
+
+#: aioseop_class.php:813
+msgid "Use noindex for the Search page:"
+msgstr "Koristi noindex za stranicu pretrage:"
+
+#: aioseop_class.php:809
+msgid "Use noindex for Tag Archives:"
+msgstr "Koristi noindex za arhiviranje tagova:"
+
+#: aioseop_class.php:805
+msgid "Use noindex for Author Archives:"
+msgstr "Koristi noindex arhiviranje autora:"
+
+#: aioseop_class.php:801
+msgid "Use noindex for Date Archives:"
+msgstr "Koristi noindex za arhiviranje datuma:"
+
+#: aioseop_class.php:797
+msgid "Use noindex for Categories:"
+msgstr "Koristi noindex za Kategorije:"
+
+#: aioseop_class.php:792
+msgid "Dynamically Generate Keywords for Posts Page/Archives:"
+msgstr "Dinamički generiši ključne reči za arhive/stranice postova:"
+
+#: aioseop_class.php:787
+msgid "Use Tags for META keywords:"
+msgstr "Koristi tagove za META ključne reči:"
+
+#: aioseop_class.php:782
+msgid "Use Categories for META keywords:"
+msgstr "Koristi kategorije za META ključne reči:"
+
+#: aioseop_class.php:770
+msgid "Enhanced Ecommerce:"
+msgstr "Unapređeno Ecommerce:"
+
+#: aioseop_class.php:758
+msgid "Enhanced Link Attribution:"
+msgstr "Napredno pripisivanje linkova:"
+
+#: aioseop_class.php:746
+msgid "Track Outbound Links:"
+msgstr "Prati outbound linkove:"
+
+#: aioseop_class.php:734
+msgid "Exclude Users From Tracking:"
+msgstr "Isključi orisnike iz praćenja:"
+
+#: aioseop_class.php:722
+msgid "Display Advertiser Tracking:"
+msgstr "Prikaži praćenje oglašivača:"
+
+#: aioseop_class.php:710
+msgid "Anonymize IP Addresses:"
+msgstr "Učini anonimnim IP adrese:"
+
+#: aioseop_class.php:697
+msgid "Additional Domains:"
+msgstr "Dodatni domeni:"
+
+#: aioseop_class.php:685
+msgid "Track Multiple Domains:"
+msgstr "Prati višestruke domene:"
+
+#: aioseop_class.php:673
+msgid "Tracking Domain:"
+msgstr "Domen praćenja:"
+
+#: aioseop_class.php:657
+msgid "Advanced Analytics Options:"
+msgstr "Napredne Analytics opcije:"
+
+#: aioseop_class.php:651
+msgid "Google Analytics ID:"
+msgstr "Google Analytics ID:"
+
+#: aioseop_class.php:645
+msgid "Specify Publisher URL:"
+msgstr "Navedi URL objavljivača:"
+
+#: aioseop_class.php:635
+msgid "Display Publisher Meta on Front Page:"
+msgstr "Prikaži meta podatke objavljivača na prvoj strani:"
+
+#: aioseop_class.php:629
+msgid "Display Google Authorship:"
+msgstr "Prikaži Google autorstvo:"
+
+#: aioseop_class.php:619
+msgid "Advanced Authorship Options:"
+msgstr "Napredne opcije autorstva:"
+
+#: aioseop_class.php:613
+msgid "Specify A Preferred Name:"
+msgstr "Odredi željeno ime:"
+
+#: aioseop_class.php:610
+msgid "Set Preferred Site Name:"
+msgstr "Podesi željeno ime sajta:"
+
+#: aioseop_class.php:607
+msgid "Display Sitelinks Search Box:"
+msgstr "Prikaži kutiju pretrage za Sitelinks:"
+
+#: aioseop_class.php:602
+msgid "Disable Google Plus Profile:"
+msgstr "Onemogući Google Plus profil:"
+
+#: aioseop_class.php:597
+msgid "Google Plus Default Profile:"
+msgstr "Google Plus podrazumevani profil:"
+
+#: aioseop_class.php:592
+msgid "Pinterest Site Verification:"
+msgstr "Pinterest verifikacija sajta:"
+
+#: aioseop_class.php:587
+msgid "Bing Webmaster Center:"
+msgstr "Bing Webmaster centar:"
+
+#: aioseop_class.php:582
+msgid "Google Webmaster Tools:"
+msgstr "Google Webmaster alatke:"
+
+#: aioseop_class.php:572
+msgid "Custom titles:"
+msgstr "Uobičajeni naslovi:"
+
+#: aioseop_class.php:567
+msgid "Default to NOYDIR:"
+msgstr "Podrazumevano do NOYDIR:"
+
+#: aioseop_class.php:562
+msgid "Default to NOODP:"
+msgstr "Podrazumevano do NOODP:"
+
+#: aioseop_class.php:557
+msgid "Default to NOFOLLOW:"
+msgstr "Podrazumevano do NOFOLLOW:"
+
+#: aioseop_class.php:552
+msgid "Default to NOINDEX:"
+msgstr "Podrazumevano do NOINDEX:"
+
+#: aioseop_class.php:541
+msgid "Enable Advanced Options:"
+msgstr "Omogući napredne opcije:"
+
+#: aioseop_class.php:529
+msgid "SEO on only these post types:"
+msgstr "SEO za samo ove tipove postova:"
+
+#: aioseop_class.php:520
+msgid "SEO for Custom Post Types:"
+msgstr "SEO za obične tipove postova:"
+
+#: aioseop_class.php:514
+msgid "Paged Format:"
+msgstr "Format stranice:"
+
+#: aioseop_class.php:508
+msgid "404 Title Format:"
+msgstr "404 Naslov formata:"
+
+#: aioseop_class.php:502
+msgid "Description Format"
+msgstr "Format opisa"
+
+#: aioseop_class.php:496
+msgid "Search Title Format:"
+msgstr "Naslov formata pretrage:"
+
+#: aioseop_class.php:490
+msgid "Tag Title Format:"
+msgstr "Naslov formata taga:"
+
+#: aioseop_class.php:484
+msgid "Author Archive Title Format:"
+msgstr "Naslov formata arhiviranja autora:"
+
+#: aioseop_class.php:478
+msgid "Date Archive Title Format:"
+msgstr "Naslov formata arhiviranja datuma:"
+
+#: aioseop_class.php:472
+msgid "Archive Title Format:"
+msgstr "Format naslova arhiviranja:"
+
+#: aioseop_class.php:466
+msgid "Category Title Format:"
+msgstr "Format naslova kategorije:"
+
+#: aioseop_class.php:460
+msgid "Post Title Format:"
+msgstr "Format naslova posta:"
+
+#: aioseop_class.php:454
+msgid "Page Title Format:"
+msgstr "Format naslova strane:"
+
+#: aioseop_class.php:448
+msgid "Home Page Title Format:"
+msgstr "Format naslova početne strane:"
+
+#: aioseop_class.php:435
+msgid "Use Original Title:"
+msgstr "Koristi originalni naslov:"
+
+#: aioseop_class.php:425 modules/aioseop_performance.php:63
+msgid "Force Rewrites:"
+msgstr "Iznudi prepisivanje:"
+
+#: aioseop_class.php:416
+msgid "Rewrite Titles:"
+msgstr "Prepiši naslove:"
+
+#: aioseop_class.php:411
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: aioseop_class.php:410
+msgid "HTTP"
+msgstr "HTTP"
+
+#: aioseop_class.php:409
+msgid "Auto"
+msgstr "Auto"
+
+#: aioseop_class.php:405
+msgid "Set Protocol For Canonical URLs:"
+msgstr "Podesi protokol za Kanonički URL:"
+
+#: aioseop_class.php:400
+msgid "Enable Custom Canonical URLs:"
+msgstr "Omogući obični Kanonički URL:"
+
+#: aioseop_class.php:395
+msgid "No Pagination for Canonical URLs:"
+msgstr "Nema obeležavanja strana za Kanoničke URL:"
+
+#: aioseop_class.php:391
+msgid "Canonical URLs:"
+msgstr "Kanonički URL:"
+
+#: aioseop_class.php:382
+msgid "Use Static Front Page Instead"
+msgstr "Koristite statičku prvu stranu umesto"
+
+#: aioseop_class.php:375
+msgid "Home Keywords (comma separated):"
+msgstr "Ključne reči početnog ekrana (razdovjene zarezima):"
+
+#: aioseop_class.php:371 aioseop_class.php:387 aioseop_class.php:421
+#: aioseop_class.php:431 aioseop_class.php:440 aioseop_class.php:525
+#: aioseop_class.php:546 aioseop_class.php:624 aioseop_class.php:640
+#: aioseop_class.php:662 modules/aioseop_performance.php:68
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: aioseop_class.php:370 aioseop_class.php:386 aioseop_class.php:420
+#: aioseop_class.php:430 aioseop_class.php:439 aioseop_class.php:524
+#: aioseop_class.php:545 aioseop_class.php:623 aioseop_class.php:639
+#: aioseop_class.php:661 modules/aioseop_performance.php:67
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: aioseop_class.php:366
+msgid "Use Keywords:"
+msgstr "Koristi ključne reči:"
+
+#: aioseop_class.php:356
+msgid "Home Description:"
+msgstr "Opis početne strane: "
+
+#: aioseop_class.php:346
+msgid "Home Title:"
+msgstr "Naslov početne strane:"
+
+#: aioseop_class.php:343
+msgid "I enjoy this plugin and have made a donation:"
+msgstr "Uživam u ovom pluginu i dao sam donaciju: "
+
+#: aioseop_class.php:334
+msgid "Disable Google Analytics on this page."
+msgstr "Onemogući Google Analytics na ovoj strani. "
+
+#: aioseop_class.php:333
+msgid "Disable SEO on this page."
+msgstr "Onemogući SEO na ovoj strani. "
+
+#: aioseop_class.php:332
+msgid "Don't display this page in the sitemap."
+msgstr "Ne prikazuj ovu stranu na mapi sajta. "
+
+#: aioseop_class.php:331
+msgid "Set the label for this page menu item."
+msgstr "Podesi oznaku za ovu stavku menija. "
+
+#: aioseop_class.php:330
+msgid "Set the title attribute for menu links."
+msgstr "Podesi atribut naslova za meni linkove. "
+
+#: aioseop_class.php:329
+msgid "Check this box to ask Yahoo! not to use descriptions from the Yahoo! directory for this page."
+msgstr "Štiklirajte ovo polje da pitate Yahoo! da ne koristi opise iz Yahoo! direktorija za ovu stranu. "
+
+#: aioseop_class.php:328
+msgid "Check this box to ask search engines not to use descriptions from the Open Directory Project for this page."
+msgstr "Štiklirajte ovu kutiju da zatražite od pretraživača da ne koriste opise iz Open Directory Project za ovu stranu. "
+
+#: aioseop_class.php:327
+msgid "Check this box to ask search engines not to follow links from this page."
+msgstr "Štiklirajte ovu kutiju da zatražite od pretraživača da ne prate linkove sa ove strane. "
+
+#: aioseop_class.php:326
+msgid "Check this box to ask search engines not to index this page."
+msgstr "Štiklirajte ovu kutiju da zatražite od pretraživača da ne indeksuju ovu stranu. "
+
+#: aioseop_class.php:325
+msgid "Override the canonical URLs for this post."
+msgstr "Premostite kanoničke URL za ovaj post. "
+
+#: aioseop_class.php:324
+msgid "A comma separated list of your most important keywords for this page that will be written as META keywords."
+msgstr "Lista razdvojena zarezima za većinu vaših ključnih reči za ovu stranu koje će biti napisane kao META reči. "
+
+#: aioseop_class.php:323
+msgid "The META description for this page. This will override any autogenerated descriptions."
+msgstr "META opis za ovu stranu. Ovo će premostiti bilo koje autogenerisane opise. "
+
+#: aioseop_class.php:322
+msgid "A custom title that shows up in the title tag for this page."
+msgstr "Naumičan naslov koji se pojavljuje u tagovima naslova za ovu stranu. "
+
+#: aioseop_class.php:321
+msgid "A preview of what this page might look like in search engine results."
+msgstr "Pregled kako strana može izgledati u rezultatima pretrage pretraživača. "
+
+#: aioseop_class.php:231
+msgid "What you enter here will be copied verbatim to the header of the home page if you have Front page displays your latest posts selected in Settings, Reading.  It will also be copied verbatim to the header on the Posts page if you have one set in Settings, Reading. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "Ono što unesete ovde će biti doslovno iskopirano na heder prve strane ukoliko prva strana prikazuje vaše najnovije postove odabrane u Podešavanjima, Čitanje. Takođe će biti doslovno iskopirano na heder strane za postove ukoliko je podešeno u Podešavanjima, Čitanje. Ovde možete uneti koje god dodatne hedere želite, čak i reference za stylesheets."
+
+#: aioseop_class.php:230
+msgid "What you enter here will be copied verbatim to the header of the front page if you have set a static page in Settings, Reading, Front Page Displays. You can enter whatever additional headers you want here, even references to stylesheets. This will fall back to using Additional Page Headers if you have them set and nothing is entered here."
+msgstr "Ono što unesete ovde će biti doslovno iskopirano na heder prve strane ako ste podesili statičku stranu u Podešavanjima, Čitanje, Prikazi prve strane. Ovde možete uneti koje god dodatne hedere želite, čak i reference za stylesheets. Ovo će se vratiti na korišćenje Dodatnih hedera strane ukoliko ste ih podesili a ovde ništa nije unešeno. "
+
+#: aioseop_class.php:229
+msgid "What you enter here will be copied verbatim to the header of all Pages. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "Ono što unesete ovde će biti doslovno iskopirano na heder svih strana. Ovde možete uneti koje god dodatne hedere želite, čak i reference za stylesheets."
+
+#: aioseop_class.php:228
+msgid "What you enter here will be copied verbatim to the header of all Posts. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "Ono što unesete ovde će biti doslovno kopirano na heder svih Postova. Ovde možete uneti bilo koje dodatne hedere koje želite, čak i reference za stylesheets."
+
+#: aioseop_class.php:227
+msgid "Enter a comma separated list of pages here to be excluded by All in One SEO Pack.  This is helpful when using plugins which generate their own non-WordPress dynamic pages.  Ex: <em>/forum/, /contact/</em>  For instance, if you want to exclude the virtual pages generated by a forum plugin, all you have to do is add forum or /forum or /forum/ or and any URL with the word \\\"forum\\\" in it, such as http://mysite.com/forum or http://mysite.com/forum/someforumpage here and it will be excluded from All in One SEO Pack."
+msgstr "Unsite listu razdvojenu zarezima za strane koje želite da budu isključene od strane All in One SEO Pack.  Ovo je od pomoći kada koristite pluginove koji generišu sopstvene non-WordPress dinamičke strane.  Npr: <em>/forum/, /contact/</em>  Na primer, ukoliko želite da isključite virtualne strane generisane od strane forum plugina, sve što treba da uradite jeste da dodate forum ili /forum ili /forum/ ili i bilo koji URL sa rečju \"forum\" u njemu, kao npr. http://mysite.com/forum or http://mysite.com/forum/someforumpage ovde i biće isključena iz All in One SEO Pack."
+
+#: aioseop_class.php:225
+msgid "Check this to unprotect internal postmeta fields for use with XMLRPC. If you don't know what that is, leave it unchecked."
+msgstr "Štikliraj ovo da ne štitiš više interna postmeta polja za korišćenje sa XMLRPC. Ukoliko ne znate šta je, ostavite neštiklirano. "
+
+#: aioseop_class.php:224
+msgid "Check this to support Schema.org markup, i.e., itemprop on supported metadata."
+msgstr "Štikliraj ovo da podržiš Schema.org obeležavanje, tj. itemprop na podržanim meta podacima. "
+
+#: aioseop_class.php:223
+msgid "Check this to prevent your Description from being truncated regardless of its length."
+msgstr "Štiklirajte ovo da sprečite vaš opis da ne postane okrnjen bez obzira na njegovu dužinu. "
+
+#: aioseop_class.php:222
+msgid "Check this and your Meta Descriptions will be removed from page 2 or later of paginated content."
+msgstr "Štiklirajte ovo i vaši Meta opisi će biti uklonjeni od str. 2 nadalje za obeležen sadržaj. "
+
+#: aioseop_class.php:221
+msgid "Check this and shortcodes will get executed for descriptions auto-generated from content."
+msgstr "Štiklirajte ovo i premijum brojevi će biti izvršeni za opise autogenerisane iz sadržaja. "
+
+#: aioseop_class.php:220
+msgid "Check this and your Meta Descriptions will be auto-generated from your excerpt or content."
+msgstr "Štiklirajte ovo i vaši meta Opisi će biti autogenerisani iz vašeg odlomka sadržaja."
+
+#: aioseop_class.php:219
+msgid "Check this and your Meta Descriptions won't be generated from the excerpt."
+msgstr "Štiklirajte ovo i vaši meta Opisi neće biti generisani iz odlomka. "
+
+#: aioseop_class.php:218
+msgid "Set the default noydir setting for each Post Type."
+msgstr "Postavite podrazumevano noydir podešavanje za svaki Tip posta."
+
+#: aioseop_class.php:217
+msgid "Check this box to ask Yahoo! not to use descriptions from the Yahoo! directory for your entire site."
+msgstr "Štikliraj ovo polje da pitaš Yahoo! da ne koristi opise iz Yahoo! direktorija za ceo vaš sajt. "
+
+#: aioseop_class.php:216
+msgid "Set the default noodp setting for each Post Type."
+msgstr "Postavite podrazumevano noodp podešavanje za svaki Tip posta."
+
+#: aioseop_class.php:215
+msgid "Check this box to ask search engines not to use descriptions from the Open Directory Project for your entire site."
+msgstr "Štiklirajte ovo da zatražite od pretraživača da ne koriste opise iz Open Directory Project za ceo vaš sajt."
+
+#: aioseop_class.php:214
+msgid "Check this to ask search engines not to follow links from paginated pages/posts. Useful for avoiding duplicate content."
+msgstr "Štiklirajte ovo da zatražite od pretraživača da ne prate linkove obeleženih strana/postova. Korisno za izbegavanje duplih sadržaja."
+
+#: aioseop_class.php:213
+msgid "Check this to ask search engines not to index paginated pages/posts. Useful for avoiding duplicate content."
+msgstr "Štiklirajte ovo da zatražite od pretraživača da ne indeksuju obeležene strane/postove. Korisno za izbegavanje duplih sadržaja."
+
+#: aioseop_class.php:212
+msgid "Check this to ask search engines not to index custom Taxonomy archive pages. Useful for avoiding duplicate content."
+msgstr "Štiklirajte ovo da zatražite od pretraživača da ne indeksuju arhivirane strane nasumičnih taksonomija. Štiklirajte ovo da zatražite od pretraživača da ne indeksuju stranu "
+
+#: aioseop_class.php:211
+msgid "Check this to ask search engines not to index the 404 page."
+msgstr "Štiklirajte ovo da zatražite od pretraživača da ne indeksuju stranu 404."
+
+#: aioseop_class.php:210
+msgid "Check this to ask search engines not to index the Search page. Useful for avoiding duplicate content."
+msgstr "Štiklirajte ovo da zatražite od pretraživača da ne indeksuju stranu pretrage. Korisno za izbegavanje duplih sadržaja. "
+
+#: aioseop_class.php:209
+msgid "Check this to ask search engines not to index Tag Archives. Useful for avoiding duplicate content."
+msgstr "Štikliraj ovo da pitaš pretraživače da ne indeksuju Tag Arhive. Korisno je za izbegavanje duplih sadržaja."
+
+#: aioseop_class.php:208
+msgid "Check this to ask search engines not to index Author Archives. Useful for avoiding duplicate content."
+msgstr "Štikliraj ovo da pitaš pretraživače da ne indeksuju Autorske Arhive. Korisno je za izbegavanje duplih sadržaja."
+
+#: aioseop_class.php:207
+msgid "Check this to ask search engines not to index Date Archives. Useful for avoiding duplicate content."
+msgstr "Štikliraj ovo da pitaš pretraživače da ne indeksuju Datum Arhive. Korisno je za izbegavanje duplih sadržaja."
+
+#: aioseop_class.php:206
+msgid "Check this to ask search engines not to index Category Archives. Useful for avoiding duplicate content."
+msgstr "Štikliraj ovo da pitaš pretraživače da ne indeksuju Kategoriju Arhive. Korisno je za izbegavanje duplih sadržaja. "
+
+#: aioseop_class.php:204
+msgid "Set the default NOFOLLOW setting for each Post Type."
+msgstr "Podesi podrazumevano NOFOLLOW podešavanje za svaki Tip posta. "
+
+#: aioseop_class.php:203
+msgid "Set the default NOINDEX setting for each Post Type."
+msgstr "Podesi podrazumevano NOINDEX podešavanje za svaki Tip posta. "
+
+#: aioseop_class.php:202
+msgid "This enables support for the Enhanced Ecommerce in Google Analytics."
+msgstr "Ovo omogućava podršku za Enhanced Ecommerce u Google Analytics."
+
+#: aioseop_class.php:201
+msgid "This enables support for the Enhanced Link Attribution in Google Analytics."
+msgstr "Ovo omogućava podršku za Enhanced Link Attribution u Google Analytics."
+
+#: aioseop_class.php:200
+msgid "Check this if you want to track outbound links with Google Analytics."
+msgstr "Štiklirajte ovo ukoliko želite da pratite outbound linkove sa Google Analytics."
+
+#: aioseop_class.php:199
+msgid "Exclude logged-in users from Google Analytics tracking by role."
+msgstr "Isključi prijavljene korisnike iz Google Analytics praćenja po ulozi. "
+
+#: aioseop_class.php:198
+msgid "This enables support for the Display Advertiser Features in Google Analytics."
+msgstr "Ovo omogućava podršku za Display Advertiser Features u Google Analytics."
+
+#: aioseop_class.php:197
+msgid "This enables support for IP Anonymization in Google Analytics."
+msgstr "Ovo omogućava podršku za IP anonimnost u Google Analytics."
+
+#: aioseop_class.php:196
+msgid "Add a list of additional domains to track here.  Enter one domain name per line without the http://."
+msgstr "Dodaj listu dodatnih domena za praćenje ovde.  Unesite jedno domen ime po liniji bez  http://."
+
+#: aioseop_class.php:195
+msgid "Use this option to enable tracking of multiple or additional domains."
+msgstr "Koristite ovu opciju da omogućite praćenje više ili dodatnih domena. "
+
+#: aioseop_class.php:194
+msgid "Enter your domain name without the http:// to set your cookie domain."
+msgstr "Unesite ime vašeg domena bez http:// kako biste podesili svoj cookie domen. "
+
+#: aioseop_class.php:193
+msgid "Check to use advanced Google Analytics options."
+msgstr "Proverite upotrebu naprednih opcija koje nudi Google Analytics. "
+
+#: aioseop_class.php:192
+msgid "Enter your Google Analytics ID here to track visitor behavior on your site using Google Analytics."
+msgstr "Unesite ovde svoj Google Analytics ID da pratite ponašanje posetioca na vašem sajtu korišćenjem Google Analytics."
+
+#: aioseop_class.php:191
+msgid "Press the connect button to connect with Google Analytics; or if already connected, press the disconnect button to disable and remove any stored analytics credentials."
+msgstr "Pritisnite dugme poveži se sa Google Analytics; ili ukoliko st eveć povezani, pritisnite diskonektuj se dugme da onemogućite i uklonite bilo koj esačuvane analytics akreditive."
+
+#: aioseop_class.php:190
+msgid "Add markup to tell Google the preferred name for your website."
+msgstr "Dodajte označavanje da kažete Google željeno ime vašeg sajta. "
+
+#: aioseop_class.php:189
+msgid "Add markup to display the Google Sitelinks Search Box next to your search results in Google."
+msgstr "Dodajte označavanje da prikažete kutiju pretraživanja Google Sitelinks odmah do rezultata pretrage kod Google."
+
+#: aioseop_class.php:188
+msgid "The Google+ profile you enter here will appear on your homepage only as the rel=\\\"publisher\\\" tag. It is recommended that the URL you enter here should be the Google+ profile for your business."
+msgstr "Google+ profil koji unesete ovde će se pojaviti na vašoj početnoj strani samo kao rel=\"publisher\" tag. Preporučuje se da URL koji unesete ovde treba da bude Google+ profil za vaš posao."
+
+#: aioseop_class.php:187
+msgid "This option allows you to control whether rel=\\\"publisher\\\" is displayed on the homepage of your site. Google recommends using this if the site is a business website."
+msgstr "Ova opcija vam dozvoljava da kontrolišete dda li je rel=\"publisher\" prikazan na početnoj strani vašeg sajta. Google preporučuje korišćenje ovoga ukoliko je u pitanju poslovni sajt."
+
+#: aioseop_class.php:186
+msgid "This option allows you to control which types of pages you want to display rel=\\\"author\\\" on for Google authorship. The options include the Front Page (the homepage of your site), Posts, Pages, and any Custom Post Types. The Everywhere Else option includes 404, search, categories, tags, custom taxonomies, date archives, author archives and any other page template."
+msgstr "Ova opcija vam dozvoljava da kontrolišete koje tipove stranica želite da prikažete rel=\"author\" za Google autorstvo. Ova opcija uključuje Prvu stranu (prvu stranu vašeg sajta), postove, strane, i bilo koje nasumične tipove postova. Opcija Svuda Drugo uključuje 404, pretragu, kategorije, tagove, obične taxonomies, arhive datuma, arhive autora i bilo koji drugi obrazac stranice."
+
+#: aioseop_class.php:185
+msgid "Enable this to display advanced options for controlling Google Plus authorship information on your website."
+msgstr "Omogućite ovo da prikažete napredne opcije za kontrolisanje Google Plus informacija autorstva na vašem sajtu."
+
+#: aioseop_class.php:184
+msgid "Check this to remove the Google Plus field from the user profile screen."
+msgstr "Kliknite ovde da uklonite Google Plus polje sa ekrana korisničkog profila."
+
+#: aioseop_class.php:183
+msgid "Enter your Google+ Profile URL here to add the rel=“author” tag to your site for Google authorship. It is recommended that the URL you enter here should be your personal Google+ profile.  Use the Advanced Authorship Options below if you want greater control over the use of authorship."
+msgstr "Unesite svoj URL Google+ profila ovde da dodate rel=“author” taga na vašem sajtu za Google autorstvo. Preporučuje se da URL koji ovde unesete treba da bude vaš lični Google+ profil.  Koristite opcije Naprednog Autorstva ispod ukoliko želite veću kontrolu nad korišćenjem autorstva."
+
+#: aioseop_class.php:182
+msgid "Enter your verification code here to verify your site with Pinterest.<br /><a href='http://semperplugins.com/documentation/pinterest-site-verification/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr "Ovde unesite svoj kod verifikacije da verifikujete sajt pomoću Pinterest.<br /><a href='http://semperplugins.com/documentation/pinterest-site-verification/' target='_blank'>Kliknite ovde za dokumentaciju o ovom podešavanju</a>"
+
+#: aioseop_class.php:181
+msgid "Enter your verification code here to verify your site with Bing Webmaster Tools.<br /><a href='http://semperplugins.com/documentation/bing-webmaster-verification/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr "Ovde unesite svoj kod verifikacije da verifikujete sajt pomoću Bing Webmaster Tools.<br /><a href='http://semperplugins.com/documentation/bing-webmaster-verification/' target='_blank'>Kliknite ovde za dokumentaciju o ovom podešavanju</a>"
+
+#: aioseop_class.php:180
+msgid "Enter your verification code here to verify your site with Google Webmaster Tools.<br /><a href='http://semperplugins.com/documentation/google-webmaster-tools-verification/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr "Ovde unesite svoj kod verifikacije da verifikujete sajt pomoću Google Webmaster Tools.<br /><a href='http://semperplugins.com/documentation/google-webmaster-tools-verification/' target='_blank'>Kliknite ovde za dokumentaciju o ovom podešavanju</a>"
+
+#: aioseop_class.php:179
+msgid "This allows you to set the title tags for each Custom Post Type."
+msgstr "Ovo vam omogućava da podesite tagove naslova za svaki tip nasumičnog posta. "
+
+#: aioseop_class.php:177
+msgid "Use these checkboxes to select which Post Types you want to use All in One SEO Pack with."
+msgstr "Koristi ove kutijice za štikliranje da izabereš tip posta koji želiš da koristiš sa All in One SEO Pack."
+
+#: aioseop_class.php:176
+msgid "This will show or hide the advanced options for SEO for Custom Post Types."
+msgstr "Ovo će vam prikazati ili sakriti napredne ocpije za SEO za tipove nasumičnih postova. "
+
+#: aioseop_class.php:175
+msgid "Check this if you want to use All in One SEO Pack with any Custom Post Types on this site."
+msgstr "Štiklirajte ukoliko želite da koristite All in One SEO Pack sa bilo kojim tipovima nasumičnih postova na ovom sajtu."
+
+#: aioseop_class.php:174
+msgid "%page% - The page number"
+msgstr "%page% - Broj strane"
+
+#: aioseop_class.php:173 aioseop_class.php:3183 aioseop_class.php:3235
+msgid "The following macros are supported:"
+msgstr "Podržani su sledeći makroi:"
+
+#: aioseop_class.php:172
+msgid "This string gets appended/prepended to titles of paged index pages (like home or archive pages)."
+msgstr "Ovaj nize se prikači/doda na početak naslova označenih strana (kao početna ili arhivirajuća strana)."
+
+#: aioseop_class.php:171
+msgid "%404_title% - Additional 404 title input\""
+msgstr "%404_title% - Dodatni 404 input naslova\""
+
+#: aioseop_class.php:170
+msgid "%request_words% - The URL path in human readable form, like \"Url That Does Not Exist\""
+msgstr "%request_words% - URL put u formi koju ljudi mogu da pročitaju, kao\"Url koji ne postoji\""
+
+#: aioseop_class.php:169
+msgid "%request_url% - The original URL path, like \"/url-that-does-not-exist/\""
+msgstr "%request_url% - Originalni URL put, like \"/url-that-does-not-exist/\""
+
+#: aioseop_class.php:166
+msgid "This controls the format of the title tag for the 404 page.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format taga naslova za 404 stranu.<br />Podržani su sledeći makroi:"
+
+#: aioseop_class.php:165
+msgid "%wp_title% - The original wordpress title, e.g. post_title for posts"
+msgstr "%wp_title% - originalni wordpress naslov, e.g. post_title za postove"
+
+#: aioseop_class.php:163
+msgid "%description% - The original description as determined by the plugin, e.g. the excerpt if one is set or an auto-generated one if that option is set"
+msgstr "%description% - Originalni opis je određen kao plugin, npr. odlomak ukoliko je podešen ili autopodešen ukoliko je ta opcija podešena"
+
+#: aioseop_class.php:160
+msgid "This controls the format of Meta Descriptions.The following macros are supported:"
+msgstr "Ovo kontroliše format naslova taga za Meta Opise. Podržani su sledeći makroi:"
+
+#: aioseop_class.php:159
+msgid "%search% - What was searched for"
+msgstr "%search% - Šta je traženo"
+
+#: aioseop_class.php:156
+msgid "This controls the format of the title tag for the Search page.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format naslova taga za Stranicu pretraživanja.<br />Podržani su sledeći makroi:"
+
+#: aioseop_class.php:154
+msgid "%tag% - The name of the tag"
+msgstr "%tag% - Ime taga"
+
+#: aioseop_class.php:151
+msgid "This controls the format of the title tag for Tag Archives.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format naslova taga za Arhove tagova.<br />Podržani su sledeći makroi:"
+
+#: aioseop_class.php:149
+msgid "%author% - The original archive title given by wordpress, e.g. \"Steve\" or \"John Smith\""
+msgstr "%author% - Originalni naslov arhive dat od strane, npr. \"Steve\" ili\"John Smith\""
+
+#: aioseop_class.php:146
+msgid "This controls the format of the title tag for Author Archives.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format naslova taga za Arhive autora.<br />Podržani su sledeći makroi:"
+
+#: aioseop_class.php:144
+msgid "%year% - The original archive year given by wordpress, e.g. \"2007\""
+msgstr "%year% - Originalna godina arhive dat od strane wordpress, npr. \"2007\""
+
+#: aioseop_class.php:143
+msgid "%month% - The original archive month given by wordpress, e.g. \"August\""
+msgstr "%month% - Originalni mesec arhive dat od strane wordpress, npr. \"avgust\""
+
+#: aioseop_class.php:142
+msgid "%day% - The original archive day given by wordpress, e.g. \"17\""
+msgstr "%day% - Originalni dan arhive dat od strane wordpress, npr. \"17\""
+
+#: aioseop_class.php:141
+msgid "%date% - The original archive title given by wordpress, e.g. \"2007\" or \"2007 August\""
+msgstr "%date% - Originalni naslov arhive dat od strane wordpress, npr. \"2007\" ili\"2007 avgust\""
+
+#: aioseop_class.php:138
+msgid "This controls the format of the title tag for Date Archives.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format naslova taga za Arhive datuma.<br />Podržani su sledeći makroi:"
+
+#: aioseop_class.php:136
+msgid "%archive_title - The original archive title given by wordpress"
+msgstr "%archive_title - Originalni naslov arhive dat od strane wordpress"
+
+#: aioseop_class.php:133
+msgid "This controls the format of the title tag for Custom Post Archives.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format naslova taga za Arhive nasumičnih postova.<br />Podržani su sledeći makroi:"
+
+#: aioseop_class.php:131
+msgid "%category_description% - The description of the category"
+msgstr "%category_description% - Opis kategorije"
+
+#: aioseop_class.php:130
+msgid "%category_title% - The original title of the category"
+msgstr "%category_title% - Originalni naslov kategorije"
+
+#: aioseop_class.php:127
+msgid "This controls the format of the title tag for Category Archives.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format taga naslova za Kategoriju Arhive.<br />Sledeći makro su podržani:"
+
+#: aioseop_class.php:125 aioseop_class.php:3197
+msgid "%post_author_lastname% - This post's author' last name (capitalized)"
+msgstr "%post_author_lastname% - Ovo je prezime autora posta (velikim slovima)"
+
+#: aioseop_class.php:124 aioseop_class.php:3196
+msgid "%post_author_firstname% - This post's author' first name (capitalized)"
+msgstr "%post_author_firstname% - Ovo je ime autora posta (velikim slovima)"
+
+#: aioseop_class.php:123 aioseop_class.php:3195
+msgid "%post_author_nicename% - This post's author' nicename"
+msgstr "%post_author_nicename% - Ovo je nadimak autora posta"
+
+#: aioseop_class.php:122 aioseop_class.php:3194
+msgid "%post_author_login% - This post's author' login"
+msgstr "%post_author_login% - Ovo su informacije prijavljivanja autora stranice"
+
+#: aioseop_class.php:121
+msgid "%category% - Alias for %category_title%"
+msgstr "%category% - Alias za %category_title%"
+
+#: aioseop_class.php:120
+msgid "%category_title% - The (main) category of the post"
+msgstr "%category_title% - (Glavna) Kategorija posta"
+
+#: aioseop_class.php:119 aioseop_class.php:164
+msgid "%post_title% - The original title of the post"
+msgstr "%post_title% - Originalni naslov posta"
+
+#: aioseop_class.php:116
+msgid "This controls the format of the title tag for Posts.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format tagova naslova za Postove. <br />Sledeće makro su podržane:"
+
+#: aioseop_class.php:107
+msgid "This controls the format of the title tag for Pages.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format taga naslova za Strane.<br />POdržani su sledeći makroi:"
+
+#: aioseop_class.php:105 aioseop_class.php:114
+msgid "%page_author_lastname% - This page's author' last name (capitalized)"
+msgstr "%page_author_lastname% - Ovo je prezime autora stranice (velikim slovima)"
+
+#: aioseop_class.php:104 aioseop_class.php:113
+msgid "%page_author_firstname% - This page's author' first name (capitalized)"
+msgstr "%page_author_firstname% - Ovo je ime autora stranice (velikim slovima)"
+
+#: aioseop_class.php:103 aioseop_class.php:112
+msgid "%page_author_nicename% - This page's author' nicename"
+msgstr "%page_author_nicename% - Ovo je nadimak autora stranice"
+
+#: aioseop_class.php:102 aioseop_class.php:111
+msgid "%page_author_login% - This page's author' login"
+msgstr "%page_author_login% - Ovo su informacije prijavljivanja autora stranice "
+
+#: aioseop_class.php:101 aioseop_class.php:110
+msgid "%page_title% - The original title of the page"
+msgstr "%page_title% - Originalni naslov stranice"
+
+#: aioseop_class.php:100 aioseop_class.php:109 aioseop_class.php:118
+#: aioseop_class.php:129 aioseop_class.php:135 aioseop_class.php:140
+#: aioseop_class.php:148 aioseop_class.php:153 aioseop_class.php:158
+#: aioseop_class.php:162 aioseop_class.php:168 aioseop_class.php:3185
+#: aioseop_class.php:3237
+msgid "%blog_description% - Your blog description"
+msgstr "%blog_description% - Vaš opis bloga"
+
+#: aioseop_class.php:99 aioseop_class.php:108 aioseop_class.php:117
+#: aioseop_class.php:128 aioseop_class.php:134 aioseop_class.php:139
+#: aioseop_class.php:147 aioseop_class.php:152 aioseop_class.php:157
+#: aioseop_class.php:161 aioseop_class.php:167 aioseop_class.php:3184
+#: aioseop_class.php:3236
+msgid "%blog_title% - Your blog title"
+msgstr "%blog_title% - Vaš naslov bloga"
+
+#: aioseop_class.php:98
+msgid "This controls the format of the title tag for your Home Page.<br />The following macros are supported:"
+msgstr "Ovo kontroliše format taga naslova za vašu Početnu stranu.<br />POdržani su sledeći makroi:"
+
+#: aioseop_class.php:96
+msgid "Check this and Search Page Titles and Tag Page Titles will have the first letter of each word capitalized."
+msgstr "Štiklirajte ovo i kod Naslova strana pretrage i Naslova strane tagova će prvo slovo svake reči biti uvećano. "
+
+#: aioseop_class.php:95
+msgid "Note that this is all about the title tag. This is what you see in your browser's window title bar. This is NOT visible on a page, only in the title bar and in the source code. If enabled, all page, post, category, search and archive page titles get rewritten. You can specify the format for most of them. For example: Using the default post title format below, Rewrite Titles will write all post titles as 'Post Title | Blog Name'. If you have manually defined a title using All in One SEO Pack, this will become the title of your post in the format string."
+msgstr "Obratite pažnju da je ovo sve o tagu naslova.  Ovoje ono što vidite u baru naslova u prozoru vašeg pretraživača. Ovo NIJE vidljivo na strani, samo u naslovnom baru i u izvornom kodu. Ukoliko se ovo omogući, svsi naslovi strana, postova, kategorija, pretrage i arhive moraju biti prerađeni. možete odrediti format za većinu njih. Na primer: korišćenje formata naslova podrazumevanog posta ispod, Prepiši Naslove će pisati sve naslove poslova kao  'Post Title | Blog Name'. Ukoliko ste ručno definisali naslov korišćenjem All in One SEO Pack, ovo će postati nalsov vašeg posta u nizu formata."
+
+#: aioseop_class.php:94
+msgid "Check this if you want your keywords on your Posts page (set in WordPress under Settings, Reading, Front Page Displays) and your archive pages to be dynamically generated from the keywords of the posts showing on that page.  If unchecked, it will use the keywords set in the edit page screen for the posts page."
+msgstr "Štiklirajte ovo ukoliko želite vaše ključne reči na Postr strani (podešeno u WordPress u Podešavanjima, Čitanje, Prikazi prve strane) i vaše strane arhive da budu dinamički generisane od ključnih reči od postova koji se prikazuju na toj strani. Ukoliko je odštiklirano, koristiće ključne reči podešene u ekranu uređenja strane za stranice postova. "
+
+#: aioseop_class.php:93
+msgid "Check this if you want your tags for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "Štiklirajte ovo ukoliko želite vaše tagove za dati post iskorišćene kao Meta Ključne reči za ovaj post (kao dodatak bilo kojim ključnim rečima koje odredite na Uredi Post ekranu)."
+
+#: aioseop_class.php:92
+msgid "Check this if you want your categories for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "Štiklirajte ovo ukoliko želite da vaše kategorije za određeni post budu korišćene kao Meta Ključne reči za ovaj post (kao dodatak bilo kojim ključnim rečima koje odredite na Uredi Post ekranu)."
+
+#: aioseop_class.php:91
+msgid "This option allows you to toggle the use of Meta Keywords throughout the whole of the site."
+msgstr "Ova opcija vam omogućava da isključi korišćenje Meta Ključnih reči na celom sajtu. "
+
+#: aioseop_class.php:90
+msgid "Checking this option uses the title, description, and keywords set on your static Front Page."
+msgstr "Štikliranjem ove opcije koristi se naslov, opis, i ključne reči podešene na vašoj statičkoj početnoj strani. "
+
+#: aioseop_class.php:89
+msgid "Enter a comma separated list of your most important keywords for your site that will be written as Meta Keywords on your homepage. Do not stuff everything in here."
+msgstr "Unesite zarezom razdvojenu listu najbitnijih ključnih reči vašeg sajta koje će biti napisane kao Meta Ključne reči na vašoj početnoj strani. Ne trpaj sve ovde."
+
+#: aioseop_class.php:88
+msgid "This will be the Meta Description for your homepage. This is independent of any other option. The default is no Meta Description at all if this is not set."
+msgstr "Ovo će biti Meta Opis vaše početne strane. Ovo je nezavisno od bilo koje druge opcije. Podrazumevano je bez Meta Opisa u početku ukoliko nije drugačije podešeno. "
+
+#: aioseop_class.php:87
+msgid "As the name implies, this will be the Meta Title of your homepage. This is independent of any other option. If not set, the default Site Title (found in WordPress under Settings, General, Site Title) will be used."
+msgstr "Kao što ime kaže, ovo će biti Meta Naslov vaše početne strane. Ovo je nezavisno od bilo koje druge opcije. Ukoliko nije podešeno, podrazumevani Naslov Sajta (koji se nalazi u WordPress pod Podešavanjima, Opšte, Naslov Sajta) će biti korišćen."
+
+#: aioseop_class.php:86
+msgid "Check this and All in One SEO Pack will create a log of important events (all-in-one-seo-pack.log) in its plugin directory which might help debugging. Make sure this directory is writable."
+msgstr "Štiklirajte ovo i All in One SEO Pack će kreirati istoriju važnih događaja (all-in-one-seo-pack.log) u svom plugin direktoriju što može pomoći debagovanju. Pobrinite se da se može pisati u direktoriju."
+
+#: aioseop_class.php:85
+msgid "Use wp_title to get the title used by the theme; this is disabled by default. If you use this option, set your title formats appropriately, as your theme might try to do its own title SEO as well."
+msgstr "Koristite wp_title da iskoristite naslov po temi; ovo je iključeno u podrazumevanim podešavanjima. Ukoliko koristite ovu opciju, podesite formate naslova u skaldu sa time, jer vaša tema možda pokuša da uradi sopstveni SEO naslov takođe."
+
+#: aioseop_class.php:84
+msgid "Set protocol for canonical URLs."
+msgstr "Podesite protokol za kanoničke URL."
+
+#: aioseop_class.php:83
+msgid "Checking this option will allow you to customize Canonical URLs for specific posts."
+msgstr "Štikliranje ove opcije će vam omogućiti da prilagodine kanoničke URL za određene postove. "
+
+#: aioseop_class.php:82
+msgid "Checking this option will set the Canonical URL for all paginated content to the first page."
+msgstr "Štikliranje ove opcije će odrediti Kaninički URL za sav obeležen sadržaj na prvoj strani. "
+
+#: aioseop_class.php:81
+msgid "This option will automatically generate Canonical URLs for your entire WordPress installation.  This will help to prevent duplicate content penalties by <a href=\\'http://googlewebmastercentral.blogspot.com/2009/02/specify-your-canonical.html\\' target=\\'_blank\\'>Google</a>."
+msgstr "Ova opcija će automatski generisati Kanoničke URL tokom vaše kompletne WordPress instalacije.  Ovo će pomoći prilikom sprečavanja dupliciranja sadržajnih kazni od strane <a href=\\'http://googlewebmastercentral.blogspot.com/2009/02/specify-your-canonical.html\\' target=\\'_blank\\'>Google</a>."
+
+#: aioseop_class.php:79
+msgid "All donations support continued development of this free software."
+msgstr "Sve donacije podržavaju nastavljeni razvoj ovog besplatnog softvera. "
+
+#: aioseop_class.php:69 aioseop_class.php:1046
+#: modules/aioseop_opengraph.php:557
+msgid "General Settings"
+msgstr "Opšta Podešavanja"
+
+#: aioseop_class.php:68
+msgid "%s Plugin Options"
+msgstr "%s Plugin Opcije"
+
+#: modules/aioseop_bad_robots.php:182
+msgid "No rules to update!"
+msgstr "Nema pravila za ažuriranje!"
+
+#: modules/aioseop_bad_robots.php:146 modules/aioseop_bad_robots.php:179
+msgid "Failed to update .htaccess rules!"
+msgstr "Neuspelo ažuriranje .htaccess pravila."
+
+#: modules/aioseop_bad_robots.php:144 modules/aioseop_bad_robots.php:177
+msgid "Updated .htaccess rules."
+msgstr "Ažurirana .htaccess pravila."
+
+#: modules/aioseop_bad_robots.php:157
+msgid "Apache module %s is required!"
+msgstr "Apache modul %s se zahteva!"
+
+#: modules/aioseop_bad_robots.php:109
+msgid "Blocked bot with IP %s -- matched referer %s found in blocklist."
+msgstr "Blokiran bot sa IP %s -- poklapa se odnosilac %s pronađen u listi blokiranih."
+
+#: modules/aioseop_bad_robots.php:103
+msgid "Blocked bot with IP %s -- matched user agent %s found in blocklist."
+msgstr "Blokiran bot sa IP %s -- poklapa se korisnički agent %s pronađen u listi blokiranih."
+
+#: modules/aioseop_bad_robots.php:60
+msgid "No requests yet."
+msgstr "Još nema zahteva. "
+
+#: modules/aioseop_bad_robots.php:59
+msgid "Log Of Blocked Bots"
+msgstr "Istorija blokiranih botova"
+
+#: modules/aioseop_bad_robots.php:48
+msgid "Referer Blocklist"
+msgstr "Lista blokiranih korisnika"
+
+#: modules/aioseop_bad_robots.php:40
+msgid "User Agent Blocklist"
+msgstr "LIsta blokiranih korisničkih agenata"
+
+#: modules/aioseop_bad_robots.php:36
+msgid "Track Blocked Bots"
+msgstr "Prati blokirane botove"
+
+#: modules/aioseop_bad_robots.php:30
+msgid "Shows log of most recent requests from blocked bots. Note: this will not track any bots that were already blocked at the web server / .htaccess level."
+msgstr "Prikazuje istoriju najskorijih zahteva od blokiranih botova. Zabeleška: ovo neće uračunati bilo koje botove koji su već blokirani na internet serveru / .htaccess level."
+
+#: modules/aioseop_bad_robots.php:29
+msgid "This is the list of disallowed referers used for blocking bad bots."
+msgstr "Ovo je lista nedozvoljenih korisnika koja se koristi za blokiranje loših botova. "
+
+#: modules/aioseop_bad_robots.php:28
+msgid "This is the list of disallowed user agents used for blocking bad bots."
+msgstr "Ovo je lista nedozvoljenih korisničkih agenata za blokiranje loših botova."
+
+#: modules/aioseop_bad_robots.php:27
+msgid "Check this to edit the list of disallowed user agents for blocking bad bots."
+msgstr "Štiklirajte ovo da uredite listu nedozvoljenih korisničkih agenata za blokiranje loših botova. "
+
+#: modules/aioseop_bad_robots.php:26
+msgid "Block bad robots via Apache .htaccess rules. Warning: this will change your web server configuration, make sure you are able to edit this file manually as well."
+msgstr "Blokiraj loše robote pomoću Apaache .htaccess pravila. Upozorenje: ovo će promeniti konfiguraciju vašeg internet servera, pobrinite se da ste takođe u stanju da ručno uredite ovaj fajl."
+
+#: modules/aioseop_bad_robots.php:25
+msgid "Log and show recent requests from blocked bots."
+msgstr "Prijavi se i prikaži skorašnje zahteve od blokiranih botova. "
+
+#: modules/aioseop_bad_robots.php:23
+msgid "Block requests from user agents that are known to misbehave with 503."
+msgstr "Blokiraj zahteve od korisničkih agenata za koje se zna da se loše ponašaju sa 503."
+
+#: modules/aioseop_bad_robots.php:17 modules/aioseop_feature_manager.php:49
+msgid "Bad Bot Blocker"
+msgstr "Blokator loših botova"

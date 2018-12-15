@@ -1,0 +1,509 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AZL Child\n"
+"POT-Creation-Date: 2015-11-21 16:51+0100\n"
+"PO-Revision-Date: 2015-11-22 17:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: content-petition.php:10
+msgid "Support us, and sign petition for "
+msgstr "Podržite nas i potpišite peticiju za "
+
+#: content-petition.php:15
+msgid "Sign petition!"
+msgstr "Podržavam!"
+
+#: content-publication.php:35 content-single.php:42 content.php:27
+msgid "Featured post"
+msgstr "Izdvojeni članak"
+
+#: content-publication.php:70 content-single.php:89 content.php:71
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nastavi sa čitanjem <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-publication.php:71 content-single.php:90 content.php:72
+msgid "Pages:"
+msgstr "Strane:"
+
+#: customizer.php:22
+msgid "Site Identity"
+msgstr ""
+
+#: customizer.php:30
+msgid "Set Front Page"
+msgstr ""
+
+#: customizer.php:51
+msgid "Hide site title"
+msgstr ""
+
+#: customizer.php:70
+msgid "Hide site tagline"
+msgstr ""
+
+#: customizer.php:90
+msgid "Logo"
+msgstr ""
+
+#: customizer.php:103
+msgid "Colors"
+msgstr ""
+
+#: customizer.php:114
+msgid "Base Colors"
+msgstr ""
+
+#: customizer.php:126
+msgid "Background Color"
+msgstr ""
+
+#: customizer.php:132
+msgid "Text Color"
+msgstr ""
+
+#: customizer.php:138
+msgid "Link Color"
+msgstr ""
+
+#: customizer.php:144
+msgid "Link Color Hover"
+msgstr ""
+
+#: customizer.php:150
+msgid "Link Color Visited"
+msgstr ""
+
+#: customizer.php:188 customizer.php:688
+msgid "More Settings"
+msgstr ""
+
+#: customizer.php:191
+#, php-format
+msgid "Looking to add more color settings?<br /> %s."
+msgstr ""
+
+#: customizer.php:195
+msgid "Check out Generate Colors"
+msgstr ""
+
+#: customizer.php:210
+msgid "Layout"
+msgstr ""
+
+#: customizer.php:212
+msgid "Allows you to edit your theme's layout."
+msgstr ""
+
+#: customizer.php:233
+msgid "Container Width"
+msgstr ""
+
+#: customizer.php:260
+msgid "Header Layout"
+msgstr ""
+
+#: customizer.php:263 customizer.php:326 customizer.php:591
+msgid "Fluid / Full Width"
+msgstr ""
+
+#: customizer.php:264 customizer.php:327 customizer.php:592
+msgid "Contained"
+msgstr ""
+
+#: customizer.php:291
+msgid "Header Alignment"
+msgstr ""
+
+#: customizer.php:294 customizer.php:392
+msgid "Left"
+msgstr ""
+
+#: customizer.php:295 customizer.php:393
+msgid "Center"
+msgstr ""
+
+#: customizer.php:296 customizer.php:394
+msgid "Right"
+msgstr ""
+
+#: customizer.php:323
+msgid "Navigation Layout"
+msgstr ""
+
+#: customizer.php:354
+msgid "Navigation Position"
+msgstr ""
+
+#: customizer.php:357
+msgid "Below Header"
+msgstr ""
+
+#: customizer.php:358
+msgid "Above Header"
+msgstr ""
+
+#: customizer.php:359
+msgid "Float Right"
+msgstr ""
+
+#: customizer.php:360
+msgid "Left Sidebar"
+msgstr ""
+
+#: customizer.php:361
+msgid "Right Sidebar"
+msgstr ""
+
+#: customizer.php:362
+msgid "No Navigation"
+msgstr ""
+
+#: customizer.php:389
+msgid "Navigation Alignment"
+msgstr ""
+
+#: customizer.php:421
+msgid "Navigation Search"
+msgstr ""
+
+#: customizer.php:424
+msgid "Enabled"
+msgstr ""
+
+#: customizer.php:425
+msgid "Disabled"
+msgstr ""
+
+#: customizer.php:452
+msgid "Content Layout"
+msgstr ""
+
+#: customizer.php:455
+msgid "Separate Containers"
+msgstr ""
+
+#: customizer.php:456
+msgid "One Container"
+msgstr ""
+
+#: customizer.php:483
+msgid "Sidebar Layout"
+msgstr ""
+
+#: customizer.php:486 customizer.php:521 customizer.php:556
+msgid "Sidebar / Content"
+msgstr ""
+
+#: customizer.php:487 customizer.php:522 customizer.php:557
+msgid "Content / Sidebar"
+msgstr ""
+
+#: customizer.php:488 customizer.php:523 customizer.php:558
+msgid "Content (no sidebars)"
+msgstr ""
+
+#: customizer.php:489 customizer.php:524 customizer.php:559
+msgid "Sidebar / Content / Sidebar"
+msgstr ""
+
+#: customizer.php:490 customizer.php:525 customizer.php:560
+msgid "Sidebar / Sidebar / Content"
+msgstr ""
+
+#: customizer.php:491 customizer.php:526 customizer.php:561
+msgid "Content / Sidebar / Sidebar"
+msgstr ""
+
+#: customizer.php:518
+msgid "Blog Sidebar Layout"
+msgstr ""
+
+#: customizer.php:553
+msgid "Single Post Sidebar Layout"
+msgstr ""
+
+#: customizer.php:588
+msgid "Footer Layout"
+msgstr ""
+
+#: customizer.php:619
+msgid "Footer Widgets"
+msgstr ""
+
+#: customizer.php:641
+msgid "Blog"
+msgstr ""
+
+#: customizer.php:667
+msgid "Blog Post Content"
+msgstr ""
+
+#: customizer.php:670
+msgid "Show full post"
+msgstr ""
+
+#: customizer.php:671
+msgid "Show excerpt"
+msgstr ""
+
+#: customizer.php:691
+#, php-format
+msgid "Looking to add more blog settings?<br /> %s."
+msgstr ""
+
+#: customizer.php:695
+msgid "Check out Generate Blog"
+msgstr ""
+
+#: customizer.php:727
+msgid "Default"
+msgstr ""
+
+#: customizer.php:763
+msgid "Add-on available"
+msgstr ""
+
+#: customizer.php:821
+msgid "Add-ons Available! Take a look"
+msgstr ""
+
+#: footer.php:42
+msgid "#"
+msgstr ""
+
+#: footer.php:42
+msgid "Women's Leadership Academy "
+msgstr "Akademija ženskog liderstva"
+
+#: footer.php:42
+#, php-format
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et scelerisque "
+"nisl %s"
+msgstr ""
+
+#: functions.php:25 functions.php:33
+msgid "Site Logo"
+msgstr "Logo sajta"
+
+#: functions.php:39 functions.php:47
+msgid "Mobile Logo"
+msgstr "Logo za mobilni"
+
+#: functions.php:71
+msgid "Side Secondary Menu"
+msgstr ""
+
+#: functions.php:72
+msgid "Side Sub menu"
+msgstr ""
+
+#: functions.php:73
+msgid "Side Sub menu 1"
+msgstr ""
+
+#: functions.php:74
+msgid "Side Sub menu 2"
+msgstr ""
+
+#: functions.php:108 functions.php:133
+msgid "&#xf104;"
+msgstr ""
+
+#: functions.php:109 functions.php:134
+msgid "&#xf105;"
+msgstr ""
+
+#: functions.php:157
+msgid "Top Widget Area"
+msgstr ""
+
+#: functions.php:166
+msgid "Custom Footer Widget One"
+msgstr ""
+
+#: functions.php:168 functions.php:178
+msgid "Theme custom footer widget"
+msgstr ""
+
+#: functions.php:176
+msgid "Custom Footer Widget Two"
+msgstr ""
+
+#: functions.php:186 functions.php:188
+msgid "Footer Copyright Text Widget"
+msgstr ""
+
+#: functions.php:196
+msgid "Petition Widget Area"
+msgstr ""
+
+#: functions.php:198
+msgid "Custom petition widget"
+msgstr ""
+
+#: functions.php:206
+msgid "Alumni Widget Area"
+msgstr ""
+
+#: functions.php:208
+msgid "Alumni widget area"
+msgstr ""
+
+#: functions.php:257
+msgctxt "post type general name"
+msgid "Publications"
+msgstr "Publikacije"
+
+#: functions.php:258
+msgctxt "post type singular name"
+msgid "Publication"
+msgstr "Publikacija"
+
+#: functions.php:259
+msgid "Add New"
+msgstr ""
+
+#: functions.php:260
+msgid "Add New Publication"
+msgstr "Dodaj novu publikaciju"
+
+#: functions.php:261
+msgid "All Publications"
+msgstr "Sve Publikacije"
+
+#: functions.php:262
+msgid "Edit Publication"
+msgstr "Uredi Publikaciju"
+
+#: functions.php:263
+msgid "New Publication"
+msgstr "Nova Publikacija"
+
+#: functions.php:264
+msgid "View Publication"
+msgstr "Pogledaj Publikaciju"
+
+#: functions.php:265
+msgid "Search Publications"
+msgstr "Pretraga Publikacija"
+
+#: functions.php:266
+msgid "Nothing found"
+msgstr "Ništa nije pronađeno"
+
+#: functions.php:267
+msgid "Nothing found in Trash"
+msgstr "Ništa nije pronadjeno u korpi"
+
+#: functions.php:296
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "Kategorije"
+
+#: functions.php:297
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Kategorija"
+
+#: functions.php:298
+msgid "Search Categories"
+msgstr "Pretraži kategorije"
+
+#: functions.php:299
+msgid "All Categories"
+msgstr "Sve kategorije"
+
+#: functions.php:300
+msgid "Parent Category"
+msgstr ""
+
+#: functions.php:301
+msgid "Parent Category:"
+msgstr ""
+
+#: functions.php:302
+msgid "Edit Category"
+msgstr "Uredi kategoriju"
+
+#: functions.php:303
+msgid "Update Category"
+msgstr "Ažuriraj kategoriju"
+
+#: functions.php:304
+msgid "Add New Category"
+msgstr "Dodaj novu kategoriju"
+
+#: functions.php:305
+msgid "New Category Name"
+msgstr "Naziv nove kategorije"
+
+#: functions.php:306
+msgid "Publication Categories"
+msgstr "Kategorije Publikacija"
+
+#: header.php:80
+msgid "Forums"
+msgstr "Forumi"
+
+#: header.php:116
+msgid "Menu"
+msgstr "Meni"
+
+#: header.php:117
+msgid "Skip to content"
+msgstr "Predjite na sadržaj"
+
+#: index.php:79
+msgid "No posts to display"
+msgstr "Nema postova za prikaz"
+
+#: index.php:83
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Spremni da objavite svoj prvi post? <a href=\"%s\">Počnite ovde</a>."
+
+#: index.php:90 search.php:39
+msgid "Nothing Found"
+msgstr "Ništa nije pronađeno"
+
+#: index.php:94
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+"Izvinjavamo se, ali nije bilo pronadjenih rezultata. Možda će te pretragom "
+"pronaći povezani post."
+
+#: page-templates/academy-page.php:123 page-templates/front-page.php:118
+#: page-templates/publication-page.php:41
+msgid "Sorry, no posts matched your criteria."
+msgstr "Izvinjavamo se, nisu pronadjeni postovi sa zadatim kriterijumima."
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Rezultati pretrage za: %s"
+
+#: search.php:43
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Izvinjavamo se, ali nisu pronađeni zadati kriterijumi. Molimo vas pokušajte "
+"ponovo sa drugim rečima."
