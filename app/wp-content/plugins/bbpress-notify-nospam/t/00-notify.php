@@ -31,6 +31,10 @@ class Tests_bbPress_notify_no_spam_notify_new extends WP_UnitTestCase
 		$this->topic_body = "<p>This is <br> a <br /> test &#039; paragraph for topic forum [topic-forum], URL: [topic-url], and Author: [topic-author]</p>\n\n<p>And a new <br/>paragraph</p>";
 		$this->reply_body = "<p>This is <br> a <br /> test &#039; paragraph for reply forum [reply-forum], Topic URL: [topic-url], URL: [reply-url], and Author: [reply-author]</p>\n\n<p>And a new <br/>paragraph</p>";
 		
+		$user = $this->factory->user->create_and_get( array( 'role' => 'administrator' ) );
+		
+		$this->user = $user;
+		
 		// Create new forum
 		$this->forum_id = bbp_insert_forum( 
 			array( 
@@ -45,7 +49,7 @@ class Tests_bbPress_notify_no_spam_notify_new extends WP_UnitTestCase
 				'post_parent'  => $this->forum_id,
 				'post_title'   => 'test-topic',
 				'post_content' => $this->topic_body,
-				'post_author'  => 1,
+				'post_author'  => $user->ID,
 			 ),
 			array( 
 				'forum_id' => $this->forum_id		
@@ -58,7 +62,7 @@ class Tests_bbPress_notify_no_spam_notify_new extends WP_UnitTestCase
 				'post_parent'  => $this->topic_id,
 				'post_title'   => 'test-reply',
 				'post_content' => $this->reply_body,
-				'post_author'  => 1,
+				'post_author'  => $user->ID,
 			 ),
 			array( 
 				'forum_id' => $this->forum_id,
@@ -75,8 +79,8 @@ class Tests_bbPress_notify_no_spam_notify_new extends WP_UnitTestCase
 		
 		
 		// Set up the expected body regexes
-		$this->topic_body_regex = "<p>This is <br> a <br \/> test ' paragraph for topic forum test-forum, URL: http:\/\/wp_plugins\/\?p={$this->topic_id}, and Author: admin<\/p>\n\n<p>And a new <br\/>paragraph<\/p>";
-		$this->reply_body_regex = "<p>This is <br> a <br \/> test ' paragraph for reply forum test-forum, Topic URL: http:\/\/wp_plugins\/\?p={$this->topic_id}, URL: http:\/\/wp_plugins\/\?p={$this->reply_id}, and Author: admin<\/p>\n\n<p>And a new <br\/>paragraph<\/p>";
+		$this->topic_body_regex = "<p>This is <br> a <br \/> test ' paragraph for topic forum test-forum, URL: http:\/\/wp_plugins\/\?p={$this->topic_id}, and Author: {$this->user->user_login}<\/p>\n\n<p>And a new <br\/>paragraph<\/p>";
+		$this->reply_body_regex = "<p>This is <br> a <br \/> test ' paragraph for reply forum test-forum, Topic URL: http:\/\/wp_plugins\/\?p={$this->topic_id}, URL: http:\/\/wp_plugins\/\?p={$this->reply_id}, and Author: {$this->user->user_login}<\/p>\n\n<p>And a new <br\/>paragraph<\/p>";
 	}
 	
 	public function tearDown()
@@ -108,6 +112,10 @@ class Tests_bbPress_notify_no_spam_notify_new extends WP_UnitTestCase
 		$this->assertTrue( (bool) strpos( $tags, '[reply-forum]' ), 'Once missing [reply-forum] is available.' );
 		
 		$this->assertTrue( (bool) strpos( $tags, '[topic-url]' ), '[topic-url] tag is there for replies' );
+		$this->assertTrue( (bool) strpos( $tags, '[topic-content]' ), '[topic-content] tag is there for replies' );
+		$this->assertTrue( (bool) strpos( $tags, '[topic-excerpt]' ), '[topic-excerpt] tag is there for replies' );
+		$this->assertTrue( (bool) strpos( $tags, '[topic-author]' ), '[topic-author] tag is there for replies' );
+		$this->assertTrue( (bool) strpos( $tags, '[topic-author-email]' ), '[topic-author-email] tag is there for replies' );
 	}
 	
 	
@@ -276,6 +284,50 @@ class Tests_bbPress_notify_no_spam_notify_new extends WP_UnitTestCase
 // 	}
 	
 	
+	public function test_notify_on_publish_future_post()
+	{
+		global $wpdb;
+		
+		$bbpnns = bbPress_Notify_NoSpam::bootstrap();
+		$bbpnns->set_post_types();
+		
+		$type = 'topic';
+		update_option( "bbpress_notify_default_{$type}_notification", true );
+		
+		$author_id = $this->factory->user->create( array( 'role' => 'administrator' ) );
+		
+		wp_set_current_user( $author_id );
+		
+		$post = array(
+				'post_content' => 'Test content',
+				'post_name'    => 'Test name',
+				'post_status'  => 'future',
+				'post_author'  => $author_id,
+				'post_type'    => 'topic',
+				'post_date'  => date('Y-m-d H:i:s GMT', time() - 10 )
+		);
+		
+		$topic_id = wp_insert_post( $post );
+		
+		$post = get_post( $topic_id );
+		if ( 'publish' === $post->post_status )
+		{
+			$wpdb->query( "update {$wpdb->posts} set post_status = 'future' where ID = " . $post->ID );
+			clean_post_cache( $post->ID );
+		}
+		
+		$this->got_hit = false;
+		add_filter( 'bbpress_topic_notify_recipients', function($recipients, $topic_id, $forum_id){
+			$this->got_hit = true;
+			return $recipients;
+			
+		}, 10, 3);
+		
+		$this->assertFalse( $this->got_hit, 'Initial value of got hit is false' );
+		do_action( 'publish_future_post', $post->ID );
+		$this->assertTrue( $this->got_hit, 'After action value of got hit is true' );
+	}
+	
 	public function test_notify_on_save()
 	{
 			$bbpnns = bbPress_Notify_NoSpam::bootstrap();
@@ -308,7 +360,7 @@ class Tests_bbPress_notify_no_spam_notify_new extends WP_UnitTestCase
 			$this->assertFalse( empty( $result ) );
 		}
 
-	public function test_convert_links()
+	public function test_convert_images_and_links()
 	{
 		$text = 'This is <a href="http://thefirstlink.com">the first link</a> and 
 				
@@ -316,28 +368,28 @@ class Tests_bbPress_notify_no_spam_notify_new extends WP_UnitTestCase
 		
 		$bbpnns = bbPress_Notify_NoSpam::bootstrap();
 		
-		$conv = $bbpnns->convert_links( $text );
+		$conv = $bbpnns->convert_images_and_links( $text );
 		
 		$expected = 'This is (the first link) [http://thefirstlink.com] and 
 				
 				then (the second link) [http://thescondlink.com] and the final stuff.';
-		$this->assertEquals( $conv, $expected, 'Conversion works as expected' );
+		$this->assertEquals( $expected, $conv, 'Conversion works as expected' );
 		
 		$text = 'This is <a href="http://thefirstlink.com"><img src="foo.gif" alt="foo"></a> and then <a href="http://thescondlink.com">the second link</a> and the final stuff.';
 		
 		$expected = 'This is ([img]foo[/img]) [http://thefirstlink.com] and then (the second link) [http://thescondlink.com] and the final stuff.';
 		
-		$conv = $bbpnns->convert_links( $text );
+		$conv = $bbpnns->convert_images_and_links( $text );
 		
 		$this->assertEquals( $conv, $expected, 'Got an image altered');
 		
 		$text = 'This is på en forumtråd <a href="http://thefirstlink.com"><img src="foo.gif" alt="foo"> and some text and <img src="foo.gif" alt="another image"></a> <img src="foo.gif" alt="yet another image"> and then <a href="http://thescondlink.com">the second link</a> and the final stuff.';
 		
-		$conv = $bbpnns->convert_links( $text );
+		$conv = $bbpnns->convert_images_and_links( $text );
 		
 		$expected = 'This is på en forumtråd ([img]foo[/img] and some text and [img]another image[/img]) [http://thefirstlink.com] [img]yet another image[/img] and then (the second link) [http://thescondlink.com] and the final stuff.';
 		
-		$this->assertEquals( $conv, $expected, 'Nested and not nested images OK');
+		$this->assertEquals( $expected, $conv, 'Nested and not nested images OK');
 	}
 	
 	

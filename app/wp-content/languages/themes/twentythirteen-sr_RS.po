@@ -1,30 +1,19 @@
-# Translation of Twenty Thirteen in Serbian
-# This file is distributed under the same license as the Twenty Thirteen package.
+# Translation of Themes - Twenty Thirteen in Serbian
+# This file is distributed under the same license as the Themes - Twenty Thirteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-27 22:21:23+0000\n"
+"PO-Revision-Date: 2017-06-08 13:45:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Twenty Thirteen\n"
-
-#. Author URI of the plugin/theme
-msgid "https://wordpress.org/"
-msgstr "https://sr.wordpress.org/"
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "Вордпресова екипа"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Themes - Twenty Thirteen\n"
 
 #. Description of the plugin/theme
 msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
 msgstr "Тема 2013 за Вордпрес враћа нас назад на блог, издвајајући пун низ облика чланака, сваки приказан прелепо на свој јединствени начин. Детаљи изгледа обилују, почевши од трепераве шеме боја и одговарајуће слике заглавља, прелепе типографије и иконица и променљивог распореда који изгледају одлично на сваком уређају, великом или малом."
-
-#. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentythirteen/"
-msgstr "https://wordpress.org/themes/twentythirteen/"
 
 #. Theme Name of the plugin/theme
 msgid "Twenty Thirteen"
@@ -42,42 +31,42 @@ msgstr "Архиве ознака: %s"
 msgid "Search Results for: %s"
 msgstr "Резултати претраживања за: %s"
 
-#: inc/custom-header.php:59
+#: inc/custom-header.php:60
 msgctxt "header image description"
 msgid "Star"
 msgstr "Звезда"
 
-#: inc/custom-header.php:54
+#: inc/custom-header.php:55
 msgctxt "header image description"
 msgid "Diamond"
 msgstr "Дијамант"
 
-#: inc/custom-header.php:49
+#: inc/custom-header.php:50
 msgctxt "header image description"
 msgid "Circle"
 msgstr "Круг"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:62
 msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Thirteen захтева издање Вордпреса најмање 3.6. Користите издање %s. Молимо вас да ажурирате и покушате поново."
 
-#: image.php:52
+#: image.php:62
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Следеће <span class=\"meta-nav\">&rarr;</span>"
 
-#: image.php:51
+#: image.php:61
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Претходно"
 
-#: image.php:39
+#: image.php:49
 msgid "Full resolution"
 msgstr "Пуна резолуција"
 
-#: image.php:38
+#: image.php:48
 msgid "Link to full-size image"
 msgstr "Веза ка пуној величини слике"
 
-#: image.php:22
+#: image.php:29
 msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
 msgstr "<span class=\"attachment-meta\">Објављено <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> на <a href=\"%3$s\" title=\"Назад на %4$s\" rel=\"gallery\">%5$s</a></span>"
 
@@ -89,77 +78,77 @@ msgstr "Скочи на садржај"
 msgid "Menu"
 msgstr "Изборник"
 
-#: functions.php:369
+#: functions.php:433
 msgid "Permalink to %s"
 msgstr "Стална веза ка %s"
 
-#: functions.php:363
+#: functions.php:425
 msgctxt "1: post format name. 2: date"
 msgid "%1$s on %2$s"
 msgstr "%1$s %2$s"
 
-#: functions.php:343
+#: functions.php:405
 msgid "View all posts by %s"
 msgstr "Види све чланке од %s"
 
 #. Translators: used between list items, there is a space after the comma.
-#: functions.php:328 functions.php:334
+#: functions.php:389 functions.php:395
 msgid ", "
 msgstr ", "
 
-#: functions.php:322
+#: functions.php:381
 msgid "Sticky"
 msgstr "Лепљиво"
 
-#: functions.php:304
+#: functions.php:363
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:303
+#: functions.php:362
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
 msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
-#: functions.php:300
+#: functions.php:359
 msgid "Post navigation"
 msgstr "Кретање чланака"
 
-#: functions.php:274
+#: functions.php:332
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Новији чланци <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:270
+#: functions.php:328
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Старији чланци"
 
-#: functions.php:266
+#: functions.php:324
 msgid "Posts navigation"
 msgstr "Кретање чланака"
 
-#: functions.php:243
+#: functions.php:299
 msgid "Appears on posts and pages in the sidebar."
 msgstr "Појављује се на чланцима и странама у бочној траци."
 
-#: functions.php:241
+#: functions.php:297
 msgid "Secondary Widget Area"
 msgstr "Секундарни простор за виџете"
 
-#: functions.php:233
+#: functions.php:287
 msgid "Appears in the footer section of the site."
 msgstr "Појављује се у одељку подножја вашег веб места."
 
-#: functions.php:231
+#: functions.php:285
 msgid "Main Widget Area"
 msgstr "Главни простор за виџете"
 
-#: functions.php:218
+#: functions.php:270
 msgid "Page %s"
 msgstr "Страна %s"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Bitter, translate this to 'off'. Do not translate into your own language.
-#: functions.php:134
+#: functions.php:155
 msgctxt "Bitter font: on or off"
 msgid "on"
 msgstr "off"
@@ -167,26 +156,18 @@ msgstr "off"
 #. Translators: If there are characters in your language that are not supported
 #. by Source Sans Pro, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:128
+#: functions.php:149
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
 msgstr "off"
 
-#: functions.php:97
+#: functions.php:115
 msgid "Navigation Menu"
 msgstr "Изборник кретања"
 
-#: footer.php:19
+#: footer.php:25
 msgid "Proudly powered by %s"
 msgstr "Са поносом покреће %s"
-
-#: footer.php:19
-msgid "Semantic Personal Publishing Platform"
-msgstr "Семантичка платформа за лично издаваштво"
-
-#: footer.php:19
-msgid "http://wordpress.org/"
-msgstr "http://sr.wordpress.org/"
 
 #: content-none.php:27
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -204,60 +185,60 @@ msgstr "Спремни сте да објавите свој први члана
 msgid "Nothing Found"
 msgstr "Ништа није пронађено"
 
-#: content-gallery.php:43 content-image.php:39 content-quote.php:29
-#: content-video.php:39 content.php:56
+#: content-gallery.php:52 content-image.php:48 content-quote.php:38
+#: content-video.php:48 content.php:65
 msgid "View all % comments"
 msgstr "Видите свих % коментара"
 
-#: content-gallery.php:43 content-image.php:39 content-quote.php:29
-#: content-video.php:39 content.php:56
+#: content-gallery.php:52 content-image.php:48 content-quote.php:38
+#: content-video.php:48 content.php:65
 msgid "One comment so far"
 msgstr "Један коментар до сада"
 
-#: content-gallery.php:43 content-image.php:39 content-quote.php:29
-#: content-video.php:39 content.php:56
+#: content-gallery.php:52 content-image.php:48 content-quote.php:38
+#: content-video.php:48 content.php:65
 msgid "Leave a comment"
 msgstr "Оставите коментар"
 
-#: content-aside.php:27 content-aside.php:35 content-audio.php:38
-#: content-chat.php:36 content-gallery.php:46 content-image.php:42
-#: content-link.php:19 content-quote.php:32 content-status.php:26
-#: content-video.php:42 content.php:31 image.php:44 page.php:39
+#: content-aside.php:36 content-aside.php:44 content-audio.php:47
+#: content-chat.php:45 content-gallery.php:55 content-image.php:51
+#: content-link.php:19 content-quote.php:41 content-status.php:35
+#: content-video.php:51 content.php:31 image.php:54 page.php:51
 msgid "Edit"
 msgstr "Уреди"
 
-#: content-aside.php:20 content-audio.php:31 content-chat.php:30
-#: content-gallery.php:31 content-image.php:30 content-link.php:31
-#: content-quote.php:20 content-status.php:20 content-video.php:30
-#: content.php:48 image.php:70 page.php:35
+#: content-aside.php:24 content-audio.php:35 content-chat.php:34
+#: content-gallery.php:35 content-image.php:34 content-link.php:35
+#: content-quote.php:24 content-status.php:24 content-video.php:34
+#: content.php:52 image.php:83 page.php:41
 msgid "Pages:"
 msgstr "Стране:"
 
 #. translators: %s: Name of current post
-#: content-aside.php:16 content-audio.php:27 content-chat.php:26
-#: content-gallery.php:27 content-image.php:26 content-link.php:27
-#: content-quote.php:16 content-status.php:16 content-video.php:26
-#: content.php:44 functions.php:478
+#: content-aside.php:17 content-audio.php:28 content-chat.php:27
+#: content-gallery.php:28 content-image.php:27 content-link.php:28
+#: content-quote.php:17 content-status.php:17 content-video.php:27
+#: content.php:45 functions.php:547
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Наставите са читањем %s <span class=\"meta-nav\">&rarr;</span>"
 
-#: comments.php:52
+#: comments.php:57
 msgid "Comments are closed."
 msgstr "Затворено за коментаре."
 
-#: comments.php:47
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "Новији коментари &rarr;"
 
-#: comments.php:46
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; Старији коментари"
 
-#: comments.php:45
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "Кретање коментара"
 
-#: comments.php:25
+#: comments.php:27
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -281,29 +262,29 @@ msgstr "Видите све чланке од %s <span class=\"meta-nav\">&rarr;
 msgid "About %s"
 msgstr "О %s"
 
-#: archive.php:35
+#: archive.php:36
 msgid "Archives"
 msgstr "Архиве"
 
-#: archive.php:33
+#: archive.php:34
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr "Y"
+msgstr "Y."
 
-#: archive.php:33
+#: archive.php:34
 msgid "Yearly Archives: %s"
 msgstr "Годишње архиве: %s"
 
-#: archive.php:31
+#: archive.php:32
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: archive.php:31
+#: archive.php:32
 msgid "Monthly Archives: %s"
 msgstr "Месечне архиве: %s"
 
-#: archive.php:29
+#: archive.php:30
 msgid "Daily Archives: %s"
 msgstr "Дневне архиве: %s"
 
@@ -313,8 +294,22 @@ msgstr "Изгледа да ништа није пронађено на овом
 
 #: 404.php:21
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr "Ово је нешто непријатно, зар не?"
+msgstr "Ово је помало непријатно, зар не?"
 
 #: 404.php:16
 msgid "Not Found"
 msgstr "Није пронађено"
+
+#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 2.4)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:24
+msgid "https://wordpress.org/"
+msgstr "https://sr.wordpress.org/"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "Вордпресова екипа"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentythirteen/"
+msgstr "https://wordpress.org/themes/twentythirteen/"

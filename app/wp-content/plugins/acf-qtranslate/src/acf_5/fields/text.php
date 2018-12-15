@@ -47,7 +47,7 @@ class acf_qtranslate_acf_5_text extends acf_field_text {
 
 		// vars
 		$this->name = 'qtranslate_text';
-		$this->label = __("Text",'acf');
+		$this->label = __("Text (qTranslate)",'acf');
 		$this->category = __("qTranslate",'acf');
 		$this->defaults = array(
 			'default_value'	=> '',
@@ -94,7 +94,7 @@ class acf_qtranslate_acf_5_text extends acf_field_text {
 
 		// special atts
 		foreach( $s as $k ) {
-			if( $field[ $k ] ) {
+			if( isset($field[ $k ]) && $field[ $k ] ) {
 				$atts[ $k ] = $k;
 			}
 		}

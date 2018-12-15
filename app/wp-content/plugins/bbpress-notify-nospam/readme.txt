@@ -4,20 +4,21 @@ Author URI: http://www.usestrict.net/
 Plugin URI: http://usestrict.net/2013/02/bbpress-notify-nospam/
 Tags: bbpress, email notification, no spam
 Requires at least: 3.1
-Tested up to: 4.9.1
+Tested up to: 4.9.8
 Text Domain: bbpress_notify
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.15.10
+Stable tag: 1.18.6
+Requires PHP: 5.3
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VLQU2MMXKB6S2
 
 == Description ==
-This is a modification of the original bbPress-Notify plugin, after several failed attempts to contact the author requesting that he add the no-spam code to it. I don't like spam. Do you?
+This plugin extends bbPress to send notifications via e-mail to selected roles  when new topics or replies are posted. It also has options to override the
+core bbPress notification templates, and is fully configurable in the bbPress settings.
 
-This plugin integrates into bbPress and sends a notification via e-mail when new topics or replies are posted. It is fully configurable in the bbPress settings.
+= Features include =
 
-= Settings include =
-
+ * Send notifications in HTML, Plain text, or Multipart format, with full image support.
  * Override bbPress' core subscription messages with your own; 
  * Set Notification recipient roles for new topics;
  * Set Notification recipient roles for new replies; 
@@ -27,12 +28,18 @@ This plugin integrates into bbPress and sends a notification via e-mail when new
 
 <blockquote>
 = Premium Add-Ons =
+
+Take your notifications to the next level with one or more of these add-ons. 
+
 <ul>
-    <li><a href="http://usestrict.net/product/bbpress-notify-no-spam-opt-out-add-on/" target="_new">Opt-out Add-on</a>: Users can choose not to receive notifications. A must-have for CAN-SPAM and CASL laws!</li>
-    <li><a href="http://usestrict.net/product/bbpress-notify-no-spam-digests/" target="_new">Digest Add-on</a>: Users can choose to receive daily, weekly, or monthly digests.</li>
-    <li><a href="http://usestrict.net/product/bbpress-moderation-plugin-add-on/" target="_new">bbPress Moderation Integration</a>: Make bbpnns work with <a href="https://wordpress.org/plugins/bbpressmoderation/" target="_new">bbPress Moderation</a>.</li>
-    <li><a href="http://usestrict.net/product/bbpress-notify-no-spam-private-groups-bridge/" target="_new">bbPress Private Groups Integration</a>: Make bbpnns respect <a href="https://wordpress.org/plugins/bbp-private-groups/" target="_new">bbPress Private Groups</a> rules.</li>
-    <li><a href="http://usestrict.net/product/bbpress-notify-no-spam-buddypress-bridge/" target="_new">BuddyPress Integration</a>: Notify BuddyPress Group members of new Group Forum topics and replies.</li>
+    <li><a href="https://usestrict.net/product/bbpress-notify-no-spam-reply-email/" target="_new">Reply by Email Add-on</a>: Users can reply directly from their mailbox. No need to click links or open the forums in a browser.</li>
+    <li><a href="https://usestrict.net/product/bbpress-notify-no-spam-opt-out-add-on/" target="_new">Opt-out Add-on</a>: Users can choose not to receive any notifications, or simply unsubscribe from the thread with a single click. A must-have for CAN-SPAM and CASL laws!</li>
+    <li><a href="https://usestrict.net/product/bbpress-notify-no-spam-digests/" target="_new">Digest Add-on</a>: Users can choose to receive daily, weekly, or monthly digests.</li>
+    <li><a href="https://usestrict.net/product/bbpress-moderation-plugin-add-on/" target="_new">bbPress Moderation Integration</a>: Make bbpnns work with <a href="https://wordpress.org/plugins/bbpressmoderation/" target="_new">bbPress Moderation</a>.</li>
+    <li><a href="https://usestrict.net/product/bbpress-notify-no-spam-private-groups-bridge/" target="_new">bbPress Private Groups Integration</a>: Make bbpnns respect <a href="https://wordpress.org/plugins/bbp-private-groups/" target="_new">bbPress Private Groups</a> rules.</li>
+    <li><a href="https://usestrict.net/product/bbpress-notify-no-spam-buddypress-bridge/" target="_new">BuddyPress Integration</a>: Notify BuddyPress Group members of new Group Forum topics and replies. It also shows individual Opt Out and Digest settings in each user's BuddyPress profile screen.</li>
+    <li><a href="https://usestrict.net/product/bbpress-notify-no-spam-memberpress-bridge/" target="_new">MemberPress Integration</a>: Make sure your members have access to Opt Out and Digest settings in their MemberPress profile screens, and only get notified of topics/replies they have access to.</li>
+    <li><a href="https://usestrict.net/product/bbpress-notify-no-spam-ultimate-member-bridge/" target="_new">Ultimate Member Integration</a>: Make sure your members have access to Opt Out and Digest settings in their Ultimate Member profile screens.</li>
 </ul>
 
 = Partnerships =
@@ -53,7 +60,7 @@ We've made a parnership with ISIPP.com, securing their SuretyMail Email certific
  * Version 1.12 and up have settings to decide whether authors get notified or not.
 
 = Where are the settings? =
- * All settings are under Admin -> Settings -> Forums -> Email Notifications
+ * All settings are under Admin -> Settings -> Forums -> Email Notifications. It will get its own settings screen in the upcoming version 2.0.
 
 = Can a user turn off notifications? =
  * Originally, this plugin was developed to alert Administrators of new topics and replies. After a few iterations, users requested the ability to send
@@ -63,6 +70,17 @@ the [Opt-out Add-on](http://usestrict.net/product/bbpress-notify-no-spam-opt-out
 
 = Does this plugin integrate with BuddyPress Groups? =
  * Out of the box, no. However, you can get BuddyPress Group notification functionality using our premium [bbpnns/BuddyPress Bridge plugin](http://usestrict.net/product/bbpress-notify-no-spam-buddypress-bridge/).
+ 
+= Does this plugin integrate with X, Y, Z Membership/Privacy plugin? =
+ * We can't add support for all sorts of third party plugins inside the core bbpnns plugin. It would become way too bloated. However, we do support some of the more popular membership and privacy plugins 
+ such as Private Groups, MemberPress and Ultimate Member. See the Premium Addons section above for the links to each one. If you're using a different plugin and need support, reach out and let us know. 
+ We'll look into adding it.
+ 
+= Can this plugin be customized? =
+* If you have some WordPress coding experience, customizing should be really easy as we offer around 40 filters and actions. However, if you need help, reach out 
+and let us know your specs for an estimate.
+ 
+ 
 
 == Screenshots ==
 1. The settings page
@@ -70,6 +88,47 @@ the [Opt-out Add-on](http://usestrict.net/product/bbpress-notify-no-spam-opt-out
 
 
 == Changelog ==
+= 1.18.6 =
+* Improvement: Support for environments that do not provide mb_convert_encoding().
+
+= 1.18.5 =
+* Fix: Fix PHP notice by setting default value to wp_mail_error property in case third-party mailers fail and don't call the wp_mail_error action.
+
+= 1.18.4 =
+* Fix: Correctly handle DOMDOcument calls on PHP older than 5.3.6.
+
+= 1.18.3 =
+* Fix: Added back the filters to stop default notifications in some cases where removing the core notification action wasn't working.
+
+= 1.18.2 =
+* Fix: Future Publish was not working.
+* Fix: Better handling of blocking bbPress core notifications if Overrides is on, to make sure we don't send out multiple messages (ours plus the default one).
+* Cleanup: Commented out some notifications code that are no longer relevant. 
+
+= 1.18.1 =
+* Updated Tested up to
+* Added improved admin notice code and bbpnns-rbe April/2018 promo.
+
+= 1.18 =
+* Added support for topic-content and topic-excerpt tags in replies.
+* Added check and warning of needed bridge plugins to play nicely with supported membership/permission plugins.
+
+= 1.17 =
+* Fix: notify_on_save was not handling future dated publishing at all.
+
+= 1.16.2 =
+* Fix DOMDocument to work with non-UTF8 characters. Thanks to @yinbit for the testing environment.
+
+= 1.16.1 =
+* Don't assume UTF-8 loading the text in DOMDocument to process image CIDs and convert links. 
+
+= 1.16 =
+* Add support for embedded images in notifications.
+* Capture case when topic_id does not get passed to notify_new_reply()
+
+= 1.15.11 =
+* Adjust parameters for send_notification().
+
 = 1.15.10 =
 * Add post type, topic/reply id and forum id to send_notification() so they can be used in bbpnns_filter_email_body_for_user and bbpnns_filter_email_subject_for_user filters. 
 

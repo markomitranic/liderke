@@ -1,9 +1,0 @@
-[02-Oct-2016 09:58:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10
-[02-Oct-2016 09:58:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10
-[15-Aug-2017 18:30:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10
-[15-Aug-2017 18:31:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10
-[18-Nov-2017 21:32:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10
-[22-Nov-2017 02:37:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10
-[30-Jan-2018 05:22:06 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10
-[16-Mar-2018 09:35:19 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10
-[18-Jul-2018 12:11:16 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /home/bfpeorgv/public_html/liderke.org/wp-content/themes/twentyfourteen/404.php on line 10

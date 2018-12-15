@@ -29,7 +29,6 @@ class acf_qtranslate_acf_5_wysiwyg extends acf_field_wysiwyg {
 		}
 
 		// actions
-		add_action('acf/input/admin_footer', 	array($this, 'input_admin_footer'));
 
 		acf_field::__construct();
 	}
@@ -50,7 +49,7 @@ class acf_qtranslate_acf_5_wysiwyg extends acf_field_wysiwyg {
 
 		// vars
 		$this->name = 'qtranslate_wysiwyg';
-		$this->label = __("Wysiwyg Editor",'acf');
+		$this->label = __("Wysiwyg Editor (qTranslate)",'acf');
 		$this->category = __("qTranslate",'acf');
 		$this->defaults = array(
 			'tabs'			=> 'all',
