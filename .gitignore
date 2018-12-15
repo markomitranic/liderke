@@ -1,1 +1,4 @@
 wp-config.php
+
+app/.access_log
+app/.well-known
