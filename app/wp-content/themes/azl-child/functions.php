@@ -13,23 +13,17 @@ function theme_enqueue_styles() {
 
 // Font Awesome
 function custom_scripts_styles() {
+    wp_enqueue_script(
+        'jquery-new',
+        'https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js',
+        [],
+        3.31,
+        false
+    );
 	wp_register_style( 'fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
 	wp_enqueue_style( 'fontawesome');
 }
 add_action( 'wp_enqueue_scripts', 'custom_scripts_styles' );
-
-
-function enqueueChildScripts()
-{
-    wp_enqueue_script(
-        'jquery',
-        get_stylesheet_directory_uri() . '/js/app.js',
-        [],
-        wp_get_theme()->get('Version'),
-        true
-    );
-}
-add_action( 'wp_enqueue_scripts', 'enqueueChildScripts' );
 
 // Customizer Upload Logo Section
 function site_theme_customizer( $wp_customize ) {

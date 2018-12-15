@@ -23,7 +23,6 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -39,7 +38,7 @@ n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
- 
+
 fbq('init', '1747549182144334');
 fbq('track', "PageView");</script>
 <noscript><img height="1" width="1" style="display:none"
@@ -71,12 +70,12 @@ src="https://www.facebook.com/tr?id=1747549182144334&ev=PageView&noscript=1"
 				<?php elseif ($currentLang =='en') : ?>
 
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-english.png" alt="Site logo"></a>
-					
+
 				<?php endif; ?>
-			</div>	
+			</div>
 
 			<div class='mobile-logo'>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-mob.png" alt="Site logo"></a>				
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-mob.png" alt="Site logo"></a>
 			</div>
 		</hgroup>
 
@@ -99,20 +98,20 @@ src="https://www.facebook.com/tr?id=1747549182144334&ev=PageView&noscript=1"
 						</div>
 
 					<?php endif; ?>
-       				<!-- END Navigation widget area --> 
+       				<!-- END Navigation widget area -->
 				</nav>
 			<?php endif; ?>
 		</div>
-		
+
 		<!-- Sub navigation -->
 		<?php if ( has_nav_menu( 'side_sub_menu' ) ) : ?>
-			<nav class="sub-navigation" role="navigation">	
+			<nav class="sub-navigation" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'side_sub_menu', 'menu_class' => 'custom-sub-menu' ) ); ?>
 			</nav>
 		<?php endif; ?>
 
 		<?php if ( has_nav_menu( 'side_sub_menu_1' ) && is_page(5)) : ?>
-			<nav class="sub-navigation" role="navigation">	
+			<nav class="sub-navigation" role="navigation">
 			     <?php wp_nav_menu( array( 'theme_location' => 'side_sub_menu_1', 'menu_class' => 'custom-sub-menu' ) ); ?>
 			</nav>
 		<?php endif; ?>
@@ -121,23 +120,23 @@ src="https://www.facebook.com/tr?id=1747549182144334&ev=PageView&noscript=1"
 
 		<?php elseif ( ( has_nav_menu( 'side_sub_menu_2') && ( is_home() || is_archive() || is_single() ) ) ) : ?>
 
-			<nav class="sub-navigation" role="navigation">	
+			<nav class="sub-navigation" role="navigation">
 			     <?php wp_nav_menu( array( 'theme_location' => 'side_sub_menu_2', 'menu_class' => 'custom-sub-menu' ) ); ?>
 			</nav>
 		<?php endif; ?>
 
 		<?php if ( has_nav_menu( 'primary' ) ) : ?>
-			<nav id="site-navigation" class="main-navigation" role="navigation"> 
+			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<button class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></button>
 				<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'azl-child' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-			</nav><!-- #site-navigation -->		
+			</nav><!-- #site-navigation -->
 		<?php endif;?>
 
 		<?php if ( get_header_image() ) : ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="header-image" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
 		<?php endif; ?>
-	
+
 	</header><!-- #masthead -->
 
 	<div id="main" class="wrapper">
