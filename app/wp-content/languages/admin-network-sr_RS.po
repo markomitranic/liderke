@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-15 15:01:56+0000\n"
+"PO-Revision-Date: 2018-12-19 00:24:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +18,7 @@ msgstr "Непроменљива %s не може бити одређена пр
 
 #: wp-admin/network/sites.php:173
 msgid "You are about to delete the following sites:"
-msgstr "Обрисаћете следеће веб места:"
+msgstr "Избрисаћете следећа веб места:"
 
 #: wp-admin/network/site-users.php:237
 msgid "User could not be added to this site."
@@ -67,7 +67,7 @@ msgstr "%s веб места"
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:454
 msgctxt "theme"
 msgid "Delete %s"
-msgstr "Обриши %s"
+msgstr "Избриши %s"
 
 #: wp-admin/network/themes.php:90
 msgid "Sorry, you are not allowed to delete themes for this site."
